@@ -1,0 +1,277 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name='apple-mobile-web-app-capable' content='yes' />
+<meta name="format-detection" content="telephone=no" />
+<title>房贷计算器</title>
+<link href="css/common.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/index.css" type="text/css" rel="stylesheet" media="all">
+
+</head>
+
+<body>	
+	<div id="mainContent">
+		<img src="img/bg.jpg" id="bg">
+		<div id="title_mc">
+			<img src="img/title.png" id="title">
+		</div>
+		<img src="img/edge.png" id="edge">
+			
+		<!--商贷/公积贷-->
+		<div id="type1" class="type">
+			<img src="img/navbg1.png" class="navbg">
+			<span class="tt lTt tt1">还款方式</span>
+			
+			<input type="radio" name="cb" class="cb cb1"/>
+			<span class="tt tt2">等额本息</span>
+			
+			<input type="radio" name="cb" class="cb cb2"/>
+			<span class="tt tt3">等额本金</span>
+			
+			<span class="tt lTt tt4">等额本金还款额逐月减少；等额本息还款每月相同</span>
+			<div class="line lLi ll1"></div>
+			
+			<span class="tt lTt tt5">计算方式</span>
+			
+			<input type="radio" name="_cb" class="_cb cb3"/>
+			<span class="tt tt6">按单价计算</span>
+			
+			<input type="radio" name="_cb" class="_cb cb4"/>
+			<span class="tt tt7">按贷款总额</span>
+			<div class="line lLi ll2"></div>
+			
+			<div id="mode1">
+				<span class="tt lTt tt8">单价</span>
+				<input type="tel" name="txt1" class="txt lTxt txt1" value="1234567" maxlength='7'/>
+				<span class="tt tt9">元/平米</span>
+				<div class="line lLi ll3"></div>
+				
+				<span class="tt lTt tt10">面积</span>
+				<input type="tel" name="txt2" class="txt lTxt txt2" value="1234567" maxlength='7'/>
+				<span class="tt tt11">平米</span>
+				<div class="line lLi ll4"></div>
+				
+				<span class="tt lTt tt12">按揭成数</span>
+				<select class="selTxt lTxt txt3" >
+	                <option value="0.2">2成</option>
+	                <option value="0.3">3成</option>
+	                <option value="0.4">4成</option>
+	                <option value="0.5">5成</option>
+	                <option value="0.6">6成</option>
+	                <option value="0.7">7成</option>
+	                <option value="0.8">8成</option>
+	                <option value="0.9">9成</option>
+	            </select>
+	            <div class="line lLi ll5"></div>
+				
+				<span class="tt lTt tt13">按揭年数</span>
+				<select class="selTxt lTxt txt4" >
+	                <option value="12">1年(12期)</option>
+	                <option value="24">2年(24期)</option>
+	                <option value="36">3年(36期)</option>
+	                <option value="48">4年(48期)</option>
+	                <option value="60">5年(60期)</option>
+	                <option value="72">6年(72期)</option>
+	                <option value="84">7年(84期)</option>
+	                <option value="96">8年(96期)</option>
+	                <option value="108">9年(108期)</option>
+	                <option value="120">10年(120期)</option>
+	                <option value="132">11年(132期)</option>
+	                <option value="144">12年(144期)</option>
+	                <option value="156">13年(156期)</option>
+	                <option value="168">14年(168期)</option>
+	                <option value="180">15年(180期)</option>
+	                <option value="192">16年(192期)</option>
+	                <option value="204">17年(204期)</option>
+	                <option value="216">18年(216期)</option>
+	                <option value="228">19年(228期)</option>
+	                <option value="240">20年(240期)</option>
+	                <option value="30">25年(300期)</option>
+	                <option value="360">30年(360期)</option>
+	            </select>
+				<div class="line lLi ll6"></div>
+				
+				<span class="tt lTt tt14">利率</span>
+				<div class="sdll">
+					<select class="selTxt lTxt txt5" >
+						<option value="0.049">2015年10月24日利率</option>
+						<option value="0.0515">2015年8月26日利率</option>
+						<option value="0.054">2015年6月28日利率</option>
+						<option value="0.0565">2015年5月11日利率</option>
+						<option value="0.059">2015年3月1日利率</option>
+						<option value="0.0615">2014年11月22日利率</option>
+					</select>
+				</div>
+				<div class="line lLi ll7"></div>
+			</div>
+			
+			<div id="mode2" style="display: none;">
+				<span class="tt lTt tt8">贷款金额</span>
+				<input type="tel" name="txt1" class="txt lTxt txt1" value="1234567" maxlength='7'/>
+				<span class="tt tt9">元</span>
+				<div class="line lLi ll3"></div>
+				
+				<span class="tt lTt tt10">按揭年数</span>
+				<select class="selTxt lTxt txt4" >
+	                <option value="12">1年(12期)</option>
+	                <option value="24">2年(24期)</option>
+	                <option value="36">3年(36期)</option>
+	                <option value="48">4年(48期)</option>
+	                <option value="60">5年(60期)</option>
+	                <option value="72">6年(72期)</option>
+	                <option value="84">7年(84期)</option>
+	                <option value="96">8年(96期)</option>
+	                <option value="108">9年(108期)</option>
+	                <option value="120">10年(120期)</option>
+	                <option value="132">11年(132期)</option>
+	                <option value="144">12年(144期)</option>
+	                <option value="156">13年(156期)</option>
+	                <option value="168">14年(168期)</option>
+	                <option value="180">15年(180期)</option>
+	                <option value="192">16年(192期)</option>
+	                <option value="204">17年(204期)</option>
+	                <option value="216">18年(216期)</option>
+	                <option value="228">19年(228期)</option>
+	                <option value="240">20年(240期)</option>
+	                <option value="30">25年(300期)</option>
+	                <option value="360">30年(360期)</option>
+	            </select>
+				<div class="line lLi ll4"></div>
+				
+				<span class="tt lTt tt12">利率</span>
+				<div class="sdll">
+					<select class="selTxt lTxt txt5" >
+						<option value="0.049">2015年10月24日利率</option>
+						<option value="0.0515">2015年8月26日利率</option>
+						<option value="0.054">2015年6月28日利率</option>
+						<option value="0.0565">2015年5月11日利率</option>
+						<option value="0.059">2015年3月1日利率</option>
+						<option value="0.0615">2014年11月22日利率</option>
+					</select>
+				</div>
+				<div class="line lLi ll5"></div>
+			</div>
+		</div>
+		
+		<!--组合贷-->
+		<div id="type3" class="type" style="display: none;">
+			<img src="img/navbg3.png" class="navbg">
+			<span class="tt lTt tt1">还款方式</span>
+			
+			<input type="radio" name="cb" class="cb cb1"/>
+			<span class="tt tt2">等额本息</span>
+			
+			<input type="radio" name="cb" class="cb cb2"/>
+			<span class="tt tt3">等额本金</span>
+			
+			<span class="tt lTt tt4">等额本金还款额逐月减少；等额本息还款每月相同</span>
+			<div class="line lLi ll1"></div>
+			
+			<span class="tt lTt tt5">公积金贷款</span>
+			<input type="tel" name="txt1" class="txt lTxt txt1" value="1234567" maxlength='7'/>
+			<span class="tt tt6">元</span>
+			<div class="line lLi ll2"></div>
+			
+			<span class="tt lTt tt7">商业贷款</span>
+			<input type="tel" name="txt2" class="txt lTxt txt2" value="1234567" maxlength='7'/>
+			<span class="tt tt8">元</span>
+			<div class="line lLi ll3"></div>
+			
+			<span class="tt lTt tt9">按揭年数</span>
+			<select class="selTxt lTxt txt3" >
+                <option value="12">1年(12期)</option>
+	                <option value="24">2年(24期)</option>
+	                <option value="36">3年(36期)</option>
+	                <option value="48">4年(48期)</option>
+	                <option value="60">5年(60期)</option>
+	                <option value="72">6年(72期)</option>
+	                <option value="84">7年(84期)</option>
+	                <option value="96">8年(96期)</option>
+	                <option value="108">9年(108期)</option>
+	                <option value="120">10年(120期)</option>
+	                <option value="132">11年(132期)</option>
+	                <option value="144">12年(144期)</option>
+	                <option value="156">13年(156期)</option>
+	                <option value="168">14年(168期)</option>
+	                <option value="180">15年(180期)</option>
+	                <option value="192">16年(192期)</option>
+	                <option value="204">17年(204期)</option>
+	                <option value="216">18年(216期)</option>
+	                <option value="228">19年(228期)</option>
+	                <option value="240">20年(240期)</option>
+	                <option value="30">25年(300期)</option>
+	                <option value="360">30年(360期)</option>
+            </select>
+			<div class="line lLi ll4"></div>
+			
+			<span class="tt lTt tt10">利率</span>
+			<div class="sdll">
+				<select class="selTxt lTxt txt4" >
+					<option value="0.049">2015年10月24日利率</option>
+					<option value="0.0515">2015年8月26日利率</option>
+					<option value="0.054">2015年6月28日利率</option>
+					<option value="0.0565">2015年5月11日利率</option>
+					<option value="0.059">2015年3月1日利率</option>
+					<option value="0.0615">2014年11月22日利率</option>
+				</select>
+			</div>
+			<div class="gjjll">
+				<select class="selTxt lTxt txt4" >
+					<option value="0.0325">2015年10月24日利率</option>
+					<option value="0.0325">2015年8月26日利率</option>
+					<option value="0.035">2015年6月28日利率</option>
+					<option value="0.0375">2015年5月11日利率</option>
+					<option value="0.04">2015年3月1日利率</option>
+					<option value="0.0425">2014年11月22日利率</option>
+				</select>
+			</div>
+			<div class="line lLi ll5"></div>
+
+		</div>
+		
+		<!--结果类1-->
+		<div id="rst1">
+			<div class="line rLi ll1"></div>
+			
+			<span class="tt rTt tt1">贷款总额</span>
+			<span class="rst rTxt txt1">000000</span>
+			<div class="line rLi ll2"></div>
+			
+			<span class="tt rTt tt2">还款总额</span>
+			<span class="rst rTxt txt2">000000</span>
+			<div class="line rLi ll3"></div>
+			
+			<span class="tt rTt tt3">支付利息</span>
+			<span class="rst rTxt txt3">000000</span>
+			<div class="line rLi ll4"></div>
+			
+			<span class="tt rTt tt4">贷款月数</span>
+			<span class="rst rTxt txt4">000000</span>
+			<div class="line rLi ll5"></div>
+			
+			<span class="tt rTt tt5">月均还款</span>
+			<span class="rst rTxt txt5">000000</span>
+			<div class="line rLi ll6"></div>
+			
+			<span class="tt rTt tt6">每月递减</span>
+			<span class="rst rTxt txt6">000000</span>
+			<div class="line rLi ll7"></div>
+		</div>
+		
+		<div class="nav nav1"></div>
+		<div class="nav nav2"></div>
+		<div class="nav nav3"></div>
+		
+		<img src="img/cal_btn.png" id="cal_btn">
+			
+		<div class="black" style="display: none;">
+			<span class="black_txt">建议横屏显示</span>
+		</div>
+	</div>
+	
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

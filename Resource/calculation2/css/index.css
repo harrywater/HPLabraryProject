@@ -1,0 +1,406 @@
+/**
+ * Created by ohkei QQ:66005199.
+ */
+
+/*主要*/
+html {	
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0; 	
+}
+#mainContent{
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	/*text-align: center;*/
+	background-color: #FCF5EF;	
+}
+
+/* ****************************** 公共 ****************************** */
+#bg{
+	width: 100%;
+	height: 100%;
+}
+#title_mc{
+	text-align: center;
+	margin-right: 18%;
+}
+#title{
+	width: 20%;
+	position: absolute;
+	top:3%;
+}
+#edge{
+	width: 45%;
+	position: absolute;
+	top:12%;
+	left:3%;
+}
+.navbg{
+	width: 43%;
+	position: absolute;
+	top:14%;
+	left:4%;
+}
+.tt{
+	font-size: 1em;
+	color:#674e23;
+	position: absolute;
+}
+.lTt{
+	left:6%;
+}
+.rTt{
+	left:54%;
+}
+.txt{
+	font-size: 1.5em;
+	color:#674e23;
+	width:16%;
+	position: absolute;
+	border:1px solid #674e23;
+	text-align: right;
+	padding-right:1%;
+}
+.selTxt{
+	font-size: 1.2em;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	color:#674e23;
+	width:28%;
+	position: absolute;
+}
+.rst{
+	font-size: 1.5em;
+	color:#674e23;
+	position: absolute;
+}
+.lTxt{
+	left:5%;
+}
+.rTxt{
+	left:64%;
+}
+.cb{
+	position: absolute;
+	top:22.5%;
+}
+._cb{
+	position: absolute;
+	top:34.5%;
+}
+.line{
+	background-color:#D3D3D3;
+	height:1px;
+	width:42%;
+	position: absolute;
+}
+.lLi{
+	left:5%;
+}
+.rLi{
+	left:53%;
+}
+#cal_btn{
+	width: 15%;
+	position: absolute;
+	top:84%;
+	left:18%;
+}
+.nav{
+	width:14.3%;
+	height:5.7%;
+	background-color:#D3D3D3;
+	opacity: 0;
+	position: absolute;
+	top:14%;
+}
+.nav1{
+	left:4%;
+}
+.nav2{
+	left:18.4%;
+}
+.nav3{
+	left:32.5%;
+}
+
+/*还款方式*/
+.type .tt1{
+	top:22%;
+}
+/*等额本息*/
+.type .cb1{
+	left:16%;
+}
+.type .tt2{
+	top:22%;
+	left:18%;
+}
+/*等额本金*/
+.type .cb2{
+	left:26%;
+}
+.type .tt3{
+	top:22%;
+	left:28%;
+}
+/*等额本金还款额逐月减少；等额本息还款每月相同*/
+.type .tt4{
+	top:26%;
+	font-size: 0.8em;
+	color:#333;
+}
+
+.black{
+	width:100%;
+	height:100%;
+	background-color: #866833;
+	opacity: 0.97;
+	position: absolute;
+	top:0;
+	left:0;
+	text-align: center;
+}
+.black_txt{
+	position: absolute;
+	top: 50%;
+	right:36%;
+	color:#FFF;
+	font-size: 1em;
+	opacity: 0.6;
+}
+/* ****************************** 商贷 ****************************** */
+#type1 .ll1{
+	top:31%;
+}
+#type1 .ll2{
+	top:39%;
+}
+#type1 .ll3{
+	top:47%;
+}
+#type1 .ll4{
+	top:55%;
+}
+#type1 .ll5{
+	top:63%;
+}
+#type1 .ll6{
+	top:71%;
+}
+#type1 .ll7{
+	top:79%;
+}
+
+/*计算方式*/
+#type1 .tt5{
+	top:34%;
+}
+#type1 .tt6{
+	top:34%;
+	left:18%;
+}
+#type1 .tt7{
+	top:34%;
+	left:30%;
+}
+#type1 .cb3{
+	left:16%;
+}
+#type1 .cb4{
+	left:28%;
+}
+
+/*单价*/
+#type1 .tt8{
+	top:41.7%;
+}
+/*元/平米*/
+#type1 .tt9{
+	top:41.7%;
+	left:32%;
+}
+#type1 .txt1{
+	top:40.9%;
+	left:14.5%;
+}
+
+/*面积*/
+#type1 .tt10{
+	top:49.7%;
+}
+/*平米*/
+#type1 .tt11{
+	top:49.7%;
+	left:32%;
+}
+#type1 .txt2{
+	top:48.9%;
+	left:14.5%;
+}
+
+/*按揭成数*/
+#type1 .tt12{
+	top:57.7%;
+}
+#type1 .txt3{
+	top:56.9%;
+	left:14.5%;
+}
+
+/*按揭年份*/
+#type1 .tt13{
+	top:65.7%;
+}
+#type1 .txt4{
+	top:64.9%;
+	left:14.5%;
+}
+
+/*利率*/
+#type1 .tt14{
+	top:73.7%;
+}
+#type1 .txt5{
+	top:72.9%;
+	left:14.5%;
+}
+/* ****************************** 组合贷 ****************************** */
+#type3 .ll1{
+	top:31%;
+}
+#type3 .ll2{
+	top:40%;
+}
+#type3 .ll3{
+	top:49%;
+}
+#type3 .ll4{
+	top:58%;
+}
+#type3 .ll5{
+	top:67%;
+}
+#type3 .ll6{
+	top:76%;
+}
+/*公积金贷款*/
+#type3 .tt5{
+	top:34%;
+}
+/*元*/
+#type3 .tt6{
+	top:34%;
+	left:32%;
+}
+#type3 .txt1{
+	top:33.2%;
+	left:14.5%;
+}
+
+
+/*商业贷款*/
+#type3 .tt7{
+	top:43%;
+}
+/*元*/
+#type3 .tt8{
+	top:43%;
+	left:32%;
+}
+#type3 .txt2{
+	top:42.2%;
+	left:14.5%;
+}
+
+/*按揭年数*/
+#type3 .tt9{
+	top:52%;
+}
+#type3 .txt3{
+	top:51.2%;
+	left:14.5%;
+}
+
+/*利率*/
+#type3 .tt10{
+	top:61%;
+}
+#type3 .txt4{
+	top:60.2%;
+	left:14.5%;
+}
+
+/* ****************************** 结果类1 ****************************** */
+#rst1 .ll1{
+	top:21%;
+}
+#rst1 .ll2{
+	top:30%;
+}
+#rst1 .ll3{
+	top:39%;
+}
+#rst1 .ll4{
+	top:48%;
+}
+#rst1 .ll5{
+	top:57%;
+}
+#rst1 .ll6{
+	top:66%;
+}
+#rst1 .ll7{
+	top:75%;
+}
+
+/*贷款总额*/
+#rst1 .tt1{
+	top:24%;
+}
+#rst1 .txt1{
+	top:23.3%;
+}
+
+/*还款总额*/
+#rst1 .tt2{
+	top:33%;
+}
+#rst1 .txt2{
+	top:32.3%;
+}
+
+/*支付利息*/
+#rst1 .tt3{
+	top:42%;
+}
+#rst1 .txt3{
+	top:41.3%;
+}
+
+/*贷款月数*/
+#rst1 .tt4{
+	top:51%;
+}
+#rst1 .txt4{
+	top:50.3%;
+}
+
+/*月均还款*/
+#rst1 .tt5{
+	top:60%;
+}
+#rst1 .txt5{
+	top:59.3%;
+}
+
+/*每月递减*/
+#rst1 .tt6{
+	top:69%;
+}
+#rst1 .txt6{
+	top:68.3%;
+}
+

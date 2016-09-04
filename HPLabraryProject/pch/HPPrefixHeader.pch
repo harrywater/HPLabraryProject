@@ -15,5 +15,6 @@
 #import "UIColor+Hex.h"
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "HPConstant.h"
 
 #endif /* HPPrefixHeader_pch */

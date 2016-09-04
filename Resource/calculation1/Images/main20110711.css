@@ -1,0 +1,298 @@
+body {font-size:12px; margin:0px; padding:0px;background:url("../Images/jsqBg.jpg");}
+
+ul {margin:0px; list-style:none; padding:0px;}
+dl {margin:0px;}
+dd {margin:0px;}
+input,select,option {font-size:12px;}
+table {border-collapse:collapse; width:100%;}
+td,th {padding:0px;}
+form {padding:0px; margin:0px;}
+
+a{ outline: none; }
+a:link {color:#286bc5; text-decoration:none;}
+a:visited {color:#286bc5; text-decoration:none;}
+a:hover {color:#286bc5; text-decoration:underline;}
+a:active {color:#286bc5; text-decoration:none;}
+button{ outline:none; -moz-user-select: none; -khtml-user-select: none; user-select: none; }
+button::-moz-focus-inner {  border:none !important; } 
+.clear {clear:both; font-size:0px; height:0px;}
+
+.wrap {width:950px; margin:0px auto;}
+
+.ui-tabs .ui-tabs-nav{ height:33px; }
+body .ui-datepicker select.ui-datepicker-month, body .ui-datepicker select.ui-datepicker-year{ width:40%; }
+
+#hots ul { height:34px; }
+#hots ul li{
+	float:left;
+	background:url("../Images/hotsleft.gif") no-repeat left;
+	margin-right:5px;
+	padding-left:7px;
+}
+#hots ul li div{
+	background:url("../Images/hotsright.gif") no-repeat right;
+	padding-right:5px;
+}
+#hots ul li div a{
+	display: inline-block;
+	height:34px;
+	background:url("../Images/hotscenter.gif") 0 1px repeat-x;
+	color:#101F3E;
+	font-size:14px;
+	text-decoration:none;
+}
+#hots ul li div a:hover{
+	color:#E26704;
+}
+#center .ui-corner-all{
+	-moz-border-radius:0px;
+}
+#left{
+	float:left;
+	width:165px;
+}
+.resetbtn{
+	
+}
+#center{
+margin-top: 50px;
+}
+#center input{ 
+}
+#right{
+	float:left;
+	width:225px;	
+}
+
+#desc,.desc{
+	overflow:hidden;
+	color:#0152A6;
+}
+#center .ui-widget-content{
+    background:#FFFFFF;
+}
+#detailct,.detailct{
+	border-right:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	padding-left:20px;
+	background:url('../Images/detailicon.gif') 9px 6px no-repeat;	
+}
+#detail,.detail{
+	float:right;
+	color:#CCCCCC;
+	padding-left:10px;
+	padding-right:10px;
+}
+#types{
+	padding:10px;
+	border-right:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+}
+#types .ui-state-active a{
+	cursor:default;
+}
+.input center{
+	text-align:right;
+}
+.input button{
+	background:url("../Images/count_wzc15.png") no-repeat scroll 0 0 transparent;
+	border:medium none;
+	color:#CCCCCC;
+	font-size:14px;
+	height:40px;
+	line-height:30px;
+	margin-left:5px;
+	margin-top:15px;
+	vertical-align:middle;
+	width:120px;	
+	cursor: pointer;
+}
+.ui-datepicker-trigger{
+	vertical-align:middle;
+}
+#types table tr td{
+	border-bottom:1px dashed #CCCCCC;
+	height:23px;
+	padding:15px 0 5px;
+}
+.frontface{
+	color:#424242;
+	font-size:14px;
+	text-indent:10px;
+	width:200px;
+}
+#types ul{
+	background:none;
+	border:none;
+	border-bottom:1px dashed #CCCCCC;
+}
+input{
+	border:1px solid #B5B8C8;
+	line-height:18px;
+	background:#FFFFFF url("../Images/text-bg.gif") repeat-x;
+}
+input.error{
+	background: #FFFFFF url("../Images/invalid_line.gif") repeat-x scroll center bottom;
+	border-color:#CCCCCC;	
+}
+#center .disList input.resetbtn{
+	height:25px;
+	padding-bottom:0;
+	padding-top:0;
+	width:65px;
+	margin:0px;
+	padding-left:2px;
+}
+#center input.uinumber, #center input.uidate{
+	text-align:right;
+	width:133px;
+	_width:133px;
+	padding:0 5px 0 0;		
+	height:18px;
+	line-height:18px;	
+}
+
+.input tr, .output tr{
+	height:30px;
+}
+.unit{
+	color:#424242;	
+	margin-left:5px;
+	font-size:10pt;
+}
+
+input.txtd{
+	background:#EEEEEE;
+	text-align:right;
+	width:143px;
+}
+.conclusion{
+	margin:20px 0px;
+}
+.conclusion p{
+	text-indent : 20px;
+	color:#CCCCCC;
+}
+
+#tooltip { 
+    display:none; 
+    background:transparent url(../Images/black_arrow.png); 
+	_background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../Images/black_arrow.png");
+    font-size:13px;
+	font-weight:bolder; 
+    height:70px; 
+    width:160px; 
+    padding:25px; 
+    color:#fff;     
+	z-index:100000;
+}
+
+
+
+/* ================== css reset ================== */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol, li { list-style:none; }
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+table { border-collapse:collapse; }
+
+.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.clearfix { zoom:1; }
+.clearit { clear:both; height:0; font-size:0; overflow:hidden; }
+a { color:#009; text-decoration:none; }
+a:visited { color:#800080; }
+a:hover, a:active, a:focus { color:#f00; text-decoration:underline; }
+a.isLine { text-decoration:underline; }
+.fred { color:#f00 }
+.fred1 { color:#e00303 }
+.blue { color:#003599 }
+.grey { color:#545454 }
+.space { height:10px; overflow:hidden; background:#fff; }
+.f12 { font-size:12px }
+.f14 { font-size:14px }
+.lh23 { line-height:23px }
+.lh24 { line-height:24px }
+.lh30 { line-height:30px }
+h1, h2, h3, h4, h5, strong { font-weight:normal; }
+.wrap { width:1024px; margin:0 auto;padding-top: 50px;}
+
+
+
+/* ¡–±Ì */
+.zclist {padding:0;margin:0;}
+.zclist a {}
+.zclist a:visited {}
+.zclist a:hover {}
+.zclist li {text-indent:13px; line-height:20px; font-size:12px;color:#8b8b8b; }
+.zclist span.extra {float:right;}
+.zclist_big li {height:24px;line-height:24px;font-size:14px;background-position:0 10px;}
+.zclist_noBg li {background:none;padding:0; }
+
+/* ±Ì∏Ò */
+.zctable a {color:#0052a8;}
+.zctable { border-collapse:collapse; width:193px; text-align:center; }
+.zctable th {line-height:22px;color:#000; }
+.zctable td { overflow:hidden; line-height:22px;color:#8a8a8a; }
+.zctable tr.first { background:#eee; }
+
+/* other */
+.aBg0 img { border:1px solid #c7e4d0;}
+.aBg0:hover img { border:1px solid #f00;}
+.aBg1 img { border:1px solid #c7e4d0; padding:1px;}
+.aBg1:hover img { border:1px solid #f00;}
+.aBg2 img { border:1px solid #c7e4d0; padding:2px;}
+.aBg2:hover img { border:1px solid #f00;}
+.aBg3 img { border:1px solid #c7e4d0; padding:3px;}
+.aBg3:hover img { border:1px solid #f00;}
+
+.zcblack {color:#000;}
+a.zcblack:hover {color:#f00;}
+.zcblue {color:#284275;}
+a.zcblue:hover {color:#f00;}
+.zcgrey {color:#828282;}
+a.zcgrey:hover {color:#f00;}
+.zcgreen {color:#026d43 !important;}
+
+/* ============== ∫·«–∂®“Â ============== */
+.zcpart1 {}
+.zcpart1 .zcleft {}
+
+
+.zcpart1 .zcleft .contant {width:660px;margin: 0px auto; }
+.contant .zccont {border:1px solid #adccd1;border-top:0;padding:15px 12px 0 20px;}
+.contant .zcblks {padding:15px 0 5px 0;border-bottom:1px dashed #ccc;position:relative;height:23px;}
+
+.contant .zcsp {height:70px; }
+.zcsp label {font-size:14px;color:#0152a4;width:90px;overflow:hidden; float:left; }
+.zcsp dl {width:215px;float:left;  }
+.zcsp dt {font-size:14px;color:#017eb8;margin-bottom:5px;line-height:22px; }
+
+.hide {position:absolute;z-index:20;left:380px;top:-23px;background:url(../Images/count_wzc10.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='../Images/count_wzc10.png');_background:none;padding:10px 0 0 5px;width:180px;height:38px;color:#828282;    }
+.hide .cancel {width:18px;height:18px;float:left;background:url(../Images/count_wzc09.png) no-repeat;cursor:pointer;margin-right:3px;   }
+.hide2 { position:absolute;z-index:2;left:66px;top:20px;padding:15px;width:295px;height:63px;background:url(../Images/count_wzc11.png) no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='../Images/count_wzc11.png');_background:none;  }
+.hide2 p {line-height:30px;height:30px;  }
+.hide2 label {line-height:30px;height:30px;width:95px;float:left;  font-size:14px;color:#0052a6;  }
+.hide2 input {line-height:14px;height:14px;float:right;width:192px;margin-top:5px;overflow:hidden;    }
+.hide2 select {float:right;width:196px;margin-top:5px;font-size:14px; }
+
+.zcpart1 .zcright {width:205px;float:right; }
+.zcblks2 {margin-bottom:10px;}
+.zcblks2 .zccont {border:1px solid #e1e1e1;border-top:0;border-bottom:0;}
+.zcblks2 .zcbot {height:7px;line-height:9px;clear:both;font-size:0px;background:url(../Images/count_wzc08.png) no-repeat;}
+.zcblks2 .zclist a {color:#6b6b6b;}
+.zcblks2 .zclist a:visited {color:#800080;}
+.zcblks2 .zclist a:hover {color:#f00;}
+.zccont{}
+.zccont td{ padding:0 3px; height:23px; }
+.zccont thead{ background:#EEEEEE }
+.L{ color:#0052A8; }
+.R{ color:#848406; text-align:right; }
+.R2{ color:#848406; }
+.imgnav{ display:block;height:100%;overflow:hidden;width:200px;}
+#qa { float:right;margin-right:10px;}
+#qa a{ color:#fff; }
