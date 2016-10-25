@@ -37,7 +37,6 @@
 		B28A9E841C340AB7007B427D /* HPMRZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B28A9E831C340AB7007B427D /* HPMRZoomScrollView.m */; };
 		B291A0081C33CA6400298B25 /* HPMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B291A0071C33CA6400298B25 /* HPMovieViewController.m */; };
 		B291A00A1C33D18600298B25 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B291A0091C33D18600298B25 /* MediaPlayer.framework */; };
-		B2BBD3A01C351FF000E3296F /* mov.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2BBD39F1C351FF000E3296F /* mov.mp4 */; };
 		B2C4078B1C2D1073006FAA9C /* HPZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C4078A1C2D1073006FAA9C /* HPZoomView.m */; };
 		B2C4078E1C2D2262006FAA9C /* HPZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C4078D1C2D2262006FAA9C /* HPZoomViewController.m */; };
 		B2D77F3A1C759C860038DD09 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D77F391C759C860038DD09 /* UICKeyChainStore.m */; };
@@ -136,7 +135,6 @@
 		B291A0061C33CA6400298B25 /* HPMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMovieViewController.h; sourceTree = "<group>"; };
 		B291A0071C33CA6400298B25 /* HPMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMovieViewController.m; sourceTree = "<group>"; };
 		B291A0091C33D18600298B25 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		B2BBD39F1C351FF000E3296F /* mov.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mov.mp4; sourceTree = SOURCE_ROOT; };
 		B2C407891C2D1073006FAA9C /* HPZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPZoomView.h; sourceTree = "<group>"; };
 		B2C4078A1C2D1073006FAA9C /* HPZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPZoomView.m; sourceTree = "<group>"; };
 		B2C4078C1C2D2262006FAA9C /* HPZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPZoomViewController.h; sourceTree = "<group>"; };
@@ -260,7 +258,6 @@
 		B28831101C23E7F900A99181 /* HPLabraryProject */ = {
 			isa = PBXGroup;
 			children = (
-				B2BBD39F1C351FF000E3296F /* mov.mp4 */,
 				B28831141C23E7F900A99181 /* AppDelegate.h */,
 				B28831151C23E7F900A99181 /* AppDelegate.m */,
 				B288311A1C23E7F900A99181 /* Main_Iphone.storyboard */,
@@ -606,7 +603,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E602F51C3D00C3009F97B4 /* blueArrow@2x.png in Resources */,
-				B2BBD3A01C351FF000E3296F /* mov.mp4 in Resources */,
 				B258DB311C2BF575009EE819 /* dbal_6@2x.jpg in Resources */,
 				B28831211C23E7F900A99181 /* LaunchScreen.storyboard in Resources */,
 				B22433D61C27F0CF00C6FB7A /* Main_Ipad.storyboard in Resources */,
