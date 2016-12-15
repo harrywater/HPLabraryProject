@@ -79,9 +79,11 @@ x = nil; }
 #define IPHONE_WIDTH            [UIScreen mainScreen].bounds.size.width
 
 //================================Ipad部分==============================
+#define getImageWithSpendMainBundlePath(path,extension)  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:path ofType:extension]]
 #define docPath ([[HPDocManager documentPath] stringByAppendingPathComponent:@"Resource"])
 #define skinImage(_name) [HPDocManager getSkinImage:_name]
 #define getImage(_name) [HPDocManager getTouchImage:_name]
+#define HP_FullScreenRect CGRectMake(0, 0, 1024, 768)
 // 动态获取设备高度
 #define IPAD_ScreenWidth        1024.000
 #define IPAD_ScreenHeight       768.000

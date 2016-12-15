@@ -28,17 +28,10 @@
     cycleScrol.delegate=self;
     cycleScrol.datasource=self;
     [self.view addSubview:cycleScrol];
-    
-    UIButton* backBtn=[[UIButton alloc]initWithFrame:CGRectMake(10, 45, 50, 30)];
-    [backBtn addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
-    [backBtn setTitle:@"返回" forState:UIControlStateNormal];
-//    backBtn.backgroundColor=[UIColor greenColor];
-    [self.view addSubview:backBtn];
+    [self.view addSubview:self.backBtn];
 
 }
--(void)backAction{
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

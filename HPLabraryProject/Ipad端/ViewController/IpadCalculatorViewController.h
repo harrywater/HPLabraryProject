@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface IpadCalculatorViewController : UIViewController
+#import "HPIpadBaseViewController.h"
+@interface IpadCalculatorViewController : HPIpadBaseViewController
 
 @end

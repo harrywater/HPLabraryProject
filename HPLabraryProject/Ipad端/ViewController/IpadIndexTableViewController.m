@@ -7,7 +7,7 @@
 //
 
 #import "IpadIndexTableViewController.h"
-#import "HPScrollImageController.h"
+#import "IpadIndexTableViewModel.h"
 
 static NSString* CELL_INDENTIFIER=@"IPAD_LIST_CELL";
 
@@ -15,6 +15,7 @@ static NSString* CELL_INDENTIFIER=@"IPAD_LIST_CELL";
 {
     NSArray* listArray;
 }
+@property(nonatomic,strong)IpadIndexTableViewModel* viewModel;
 @end
 
 @implementation IpadIndexTableViewController
@@ -23,7 +24,7 @@ static NSString* CELL_INDENTIFIER=@"IPAD_LIST_CELL";
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_INDENTIFIER];
-    listArray=@[@"缩放滚动,多张大图滑动内存优化",@"计算器",@"3",@"4",@"6"];
+    listArray=@[@"缩放滚动,多张大图滑动内存优化",@"计算器",@"定点720",@"360or180旋转",@"6"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -97,31 +98,17 @@ static NSString* CELL_INDENTIFIER=@"IPAD_LIST_CELL";
 #pragma mark - Table view delegate
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    switch (indexPath.row) {
-        case 0:{
-            HPScrollImageController* hpScrollImageView=[[HPScrollImageController alloc]init];
-            [self presentViewController:hpScrollImageView animated:YES completion:NULL];
-        }
-            break;
-        case 1:{
-            
-        }
-            break;
-        default:
-            break;
-    }
-    
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.viewModel tableView:tableView didSelectRowAtIndexPath:indexPath];
 }
 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
-
+- (IpadIndexTableViewModel*)viewModel
+{
+    if (_viewModel == nil) {
+        _viewModel = [[IpadIndexTableViewModel alloc]init];
+        _viewModel.viewController = self;
+    }
+    return _viewModel;
+}
 @end

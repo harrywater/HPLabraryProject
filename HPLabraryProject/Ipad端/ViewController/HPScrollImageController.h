@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HPIpadBaseViewController.h"
 
-@interface HPScrollImageController : UIViewController
+@interface HPScrollImageController : HPIpadBaseViewController
 
 @end

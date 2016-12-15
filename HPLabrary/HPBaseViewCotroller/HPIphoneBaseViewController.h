@@ -11,7 +11,7 @@
 #import "NSString+NetWork.h"
 #import "NSString+AlertView.h"
 
-@interface HPBaseViewController : UIViewController
+@interface HPIphoneBaseViewController : UIViewController
 @property(nonatomic,assign)BOOL leftButtonHiden;
 @property(nonatomic,assign)BOOL rightButtonHiden;
 @property(nonatomic,strong)UIButton *rightButton;

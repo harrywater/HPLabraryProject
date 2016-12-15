@@ -13,12 +13,28 @@
 		56538F051DFFF8FF002A7F1C /* dbal_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56538EFF1DFFF8FF002A7F1C /* dbal_4.jpg */; };
 		56538F061DFFF8FF002A7F1C /* dbal_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56538F001DFFF8FF002A7F1C /* dbal_5.jpg */; };
 		56538F071DFFF8FF002A7F1C /* dbal_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56538F011DFFF8FF002A7F1C /* dbal_6.jpg */; };
-		56538F161DFFFACF002A7F1C /* HPMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56538F0A1DFFFACF002A7F1C /* HPMovieViewController.m */; };
-		56538F171DFFFACF002A7F1C /* HPScrollImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56538F0C1DFFFACF002A7F1C /* HPScrollImageController.m */; };
-		56538F181DFFFACF002A7F1C /* HPZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56538F0E1DFFFACF002A7F1C /* HPZoomViewController.m */; };
-		56538F191DFFFACF002A7F1C /* IpadCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56538F101DFFFACF002A7F1C /* IpadCalculatorViewController.m */; };
-		56538F1A1DFFFACF002A7F1C /* IpadIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56538F121DFFFACF002A7F1C /* IpadIndexTableViewController.m */; };
 		56538F1B1DFFFACF002A7F1C /* IphoneIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56538F151DFFFACF002A7F1C /* IphoneIndexTableViewController.m */; };
+		567ED3F11E0242B000405CF1 /* HPMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3E71E0242B000405CF1 /* HPMovieViewController.m */; };
+		567ED3F21E0242B000405CF1 /* HPScrollImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3E91E0242B000405CF1 /* HPScrollImageController.m */; };
+		567ED3F31E0242B000405CF1 /* HPZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3EB1E0242B000405CF1 /* HPZoomViewController.m */; };
+		567ED3F41E0242B000405CF1 /* IpadCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3ED1E0242B000405CF1 /* IpadCalculatorViewController.m */; };
+		567ED3F51E0242B000405CF1 /* IpadIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3EF1E0242B000405CF1 /* IpadIndexTableViewController.m */; };
+		567ED3F81E0242CD00405CF1 /* IpadIndexTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3F71E0242CD00405CF1 /* IpadIndexTableViewModel.m */; };
+		567ED3FB1E024A6700405CF1 /* HPIpadBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3FA1E024A6700405CF1 /* HPIpadBaseViewController.m */; };
+		567ED3FE1E026F3800405CF1 /* Ipad720ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3FD1E026F3800405CF1 /* Ipad720ViewController.m */; };
+		567ED4011E02772F00405CF1 /* HPImageSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED4001E02772F00405CF1 /* HPImageSequence.m */; };
+		567ED40E1E0279E600405CF1 /* nk__0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4031E0279E600405CF1 /* nk__0.jpg */; };
+		567ED40F1E0279E600405CF1 /* nk__1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4041E0279E600405CF1 /* nk__1.jpg */; };
+		567ED4101E0279E600405CF1 /* nk__10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4051E0279E600405CF1 /* nk__10.jpg */; };
+		567ED4111E0279E600405CF1 /* nk__2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4061E0279E600405CF1 /* nk__2.jpg */; };
+		567ED4121E0279E600405CF1 /* nk__3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4071E0279E600405CF1 /* nk__3.jpg */; };
+		567ED4131E0279E600405CF1 /* nk__4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4081E0279E600405CF1 /* nk__4.jpg */; };
+		567ED4141E0279E600405CF1 /* nk__5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4091E0279E600405CF1 /* nk__5.jpg */; };
+		567ED4151E0279E600405CF1 /* nk__6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED40A1E0279E600405CF1 /* nk__6.jpg */; };
+		567ED4161E0279E600405CF1 /* nk__7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED40B1E0279E600405CF1 /* nk__7.jpg */; };
+		567ED4171E0279E600405CF1 /* nk__8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED40C1E0279E600405CF1 /* nk__8.jpg */; };
+		567ED4181E0279E600405CF1 /* nk__9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED40D1E0279E600405CF1 /* nk__9.jpg */; };
+		567ED41B1E027A0700405CF1 /* IpadSanWeiShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED41A1E027A0700405CF1 /* IpadSanWeiShowViewController.m */; };
 		93C25B7F4A3EE48CD3A3BC4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3C6E3D77E9834713FD426E /* libPods.a */; };
 		B22433D61C27F0CF00C6FB7A /* Main_Ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22433D41C27F0CF00C6FB7A /* Main_Ipad.storyboard */; };
 		B258DB241C2BEC47009EE819 /* HPCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B258DB231C2BEC47009EE819 /* HPCycleScrollView.m */; };
@@ -55,7 +71,7 @@
 		B2D8ABE81C64408800E9E439 /* HPDocManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8ABE41C64408800E9E439 /* HPDocManager.m */; };
 		B2D8ABE91C64408800E9E439 /* NSUserDefaults+Standard.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8ABE61C64408800E9E439 /* NSUserDefaults+Standard.m */; };
 		B2DF11941C869237003653DD /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = B2DF11931C869237003653DD /* Resource */; };
-		B2E602F31C3D00C3009F97B4 /* HPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E602EA1C3D00C3009F97B4 /* HPBaseViewController.m */; };
+		B2E602F31C3D00C3009F97B4 /* HPIphoneBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E602EA1C3D00C3009F97B4 /* HPIphoneBaseViewController.m */; };
 		B2E602F41C3D00C3009F97B4 /* HPHttpServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E602ED1C3D00C3009F97B4 /* HPHttpServerRequest.m */; };
 		B2E602F51C3D00C3009F97B4 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E602EF1C3D00C3009F97B4 /* blueArrow@2x.png */; };
 		B2E602F61C3D00C3009F97B4 /* blueArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E602F01C3D00C3009F97B4 /* blueArrowDown@2x.png */; };
@@ -86,18 +102,39 @@
 		56538EFF1DFFF8FF002A7F1C /* dbal_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dbal_4.jpg; sourceTree = "<group>"; };
 		56538F001DFFF8FF002A7F1C /* dbal_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dbal_5.jpg; sourceTree = "<group>"; };
 		56538F011DFFF8FF002A7F1C /* dbal_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dbal_6.jpg; sourceTree = "<group>"; };
-		56538F091DFFFACF002A7F1C /* HPMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMovieViewController.h; sourceTree = "<group>"; };
-		56538F0A1DFFFACF002A7F1C /* HPMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMovieViewController.m; sourceTree = "<group>"; };
-		56538F0B1DFFFACF002A7F1C /* HPScrollImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPScrollImageController.h; sourceTree = "<group>"; };
-		56538F0C1DFFFACF002A7F1C /* HPScrollImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPScrollImageController.m; sourceTree = "<group>"; };
-		56538F0D1DFFFACF002A7F1C /* HPZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPZoomViewController.h; sourceTree = "<group>"; };
-		56538F0E1DFFFACF002A7F1C /* HPZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPZoomViewController.m; sourceTree = "<group>"; };
-		56538F0F1DFFFACF002A7F1C /* IpadCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadCalculatorViewController.h; sourceTree = "<group>"; };
-		56538F101DFFFACF002A7F1C /* IpadCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadCalculatorViewController.m; sourceTree = "<group>"; };
-		56538F111DFFFACF002A7F1C /* IpadIndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadIndexTableViewController.h; sourceTree = "<group>"; };
-		56538F121DFFFACF002A7F1C /* IpadIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadIndexTableViewController.m; sourceTree = "<group>"; };
 		56538F141DFFFACF002A7F1C /* IphoneIndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneIndexTableViewController.h; sourceTree = "<group>"; };
 		56538F151DFFFACF002A7F1C /* IphoneIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IphoneIndexTableViewController.m; sourceTree = "<group>"; };
+		567ED3E61E0242B000405CF1 /* HPMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMovieViewController.h; sourceTree = "<group>"; };
+		567ED3E71E0242B000405CF1 /* HPMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMovieViewController.m; sourceTree = "<group>"; };
+		567ED3E81E0242B000405CF1 /* HPScrollImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPScrollImageController.h; sourceTree = "<group>"; };
+		567ED3E91E0242B000405CF1 /* HPScrollImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPScrollImageController.m; sourceTree = "<group>"; };
+		567ED3EA1E0242B000405CF1 /* HPZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPZoomViewController.h; sourceTree = "<group>"; };
+		567ED3EB1E0242B000405CF1 /* HPZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPZoomViewController.m; sourceTree = "<group>"; };
+		567ED3EC1E0242B000405CF1 /* IpadCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadCalculatorViewController.h; sourceTree = "<group>"; };
+		567ED3ED1E0242B000405CF1 /* IpadCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadCalculatorViewController.m; sourceTree = "<group>"; };
+		567ED3EE1E0242B000405CF1 /* IpadIndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadIndexTableViewController.h; sourceTree = "<group>"; };
+		567ED3EF1E0242B000405CF1 /* IpadIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadIndexTableViewController.m; sourceTree = "<group>"; };
+		567ED3F61E0242CD00405CF1 /* IpadIndexTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadIndexTableViewModel.h; sourceTree = "<group>"; };
+		567ED3F71E0242CD00405CF1 /* IpadIndexTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadIndexTableViewModel.m; sourceTree = "<group>"; };
+		567ED3F91E024A6700405CF1 /* HPIpadBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPIpadBaseViewController.h; sourceTree = "<group>"; };
+		567ED3FA1E024A6700405CF1 /* HPIpadBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPIpadBaseViewController.m; sourceTree = "<group>"; };
+		567ED3FC1E026F3800405CF1 /* Ipad720ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ipad720ViewController.h; sourceTree = "<group>"; };
+		567ED3FD1E026F3800405CF1 /* Ipad720ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ipad720ViewController.m; sourceTree = "<group>"; };
+		567ED3FF1E02772F00405CF1 /* HPImageSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageSequence.h; sourceTree = "<group>"; };
+		567ED4001E02772F00405CF1 /* HPImageSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPImageSequence.m; sourceTree = "<group>"; };
+		567ED4031E0279E600405CF1 /* nk__0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__0.jpg; sourceTree = "<group>"; };
+		567ED4041E0279E600405CF1 /* nk__1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__1.jpg; sourceTree = "<group>"; };
+		567ED4051E0279E600405CF1 /* nk__10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__10.jpg; sourceTree = "<group>"; };
+		567ED4061E0279E600405CF1 /* nk__2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__2.jpg; sourceTree = "<group>"; };
+		567ED4071E0279E600405CF1 /* nk__3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__3.jpg; sourceTree = "<group>"; };
+		567ED4081E0279E600405CF1 /* nk__4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__4.jpg; sourceTree = "<group>"; };
+		567ED4091E0279E600405CF1 /* nk__5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__5.jpg; sourceTree = "<group>"; };
+		567ED40A1E0279E600405CF1 /* nk__6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__6.jpg; sourceTree = "<group>"; };
+		567ED40B1E0279E600405CF1 /* nk__7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__7.jpg; sourceTree = "<group>"; };
+		567ED40C1E0279E600405CF1 /* nk__8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__8.jpg; sourceTree = "<group>"; };
+		567ED40D1E0279E600405CF1 /* nk__9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__9.jpg; sourceTree = "<group>"; };
+		567ED4191E027A0700405CF1 /* IpadSanWeiShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadSanWeiShowViewController.h; sourceTree = "<group>"; };
+		567ED41A1E027A0700405CF1 /* IpadSanWeiShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadSanWeiShowViewController.m; sourceTree = "<group>"; };
 		5A3C6E3D77E9834713FD426E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		873A956EC91B750713E3C29C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9B112369ECD8620859792757 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,8 +208,8 @@
 		B2D8ABE61C64408800E9E439 /* NSUserDefaults+Standard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Standard.m"; sourceTree = "<group>"; };
 		B2D8ABEA1C6440D100E9E439 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		B2DF11931C869237003653DD /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
-		B2E602E91C3D00C3009F97B4 /* HPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPBaseViewController.h; sourceTree = "<group>"; };
-		B2E602EA1C3D00C3009F97B4 /* HPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPBaseViewController.m; sourceTree = "<group>"; };
+		B2E602E91C3D00C3009F97B4 /* HPIphoneBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPIphoneBaseViewController.h; sourceTree = "<group>"; };
+		B2E602EA1C3D00C3009F97B4 /* HPIphoneBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPIphoneBaseViewController.m; sourceTree = "<group>"; };
 		B2E602EC1C3D00C3009F97B4 /* HPHttpServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPHttpServerRequest.h; sourceTree = "<group>"; };
 		B2E602ED1C3D00C3009F97B4 /* HPHttpServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPHttpServerRequest.m; sourceTree = "<group>"; };
 		B2E602EF1C3D00C3009F97B4 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
@@ -224,16 +261,8 @@
 		56538F081DFFFACF002A7F1C /* Ipad端 */ = {
 			isa = PBXGroup;
 			children = (
-				56538F091DFFFACF002A7F1C /* HPMovieViewController.h */,
-				56538F0A1DFFFACF002A7F1C /* HPMovieViewController.m */,
-				56538F0B1DFFFACF002A7F1C /* HPScrollImageController.h */,
-				56538F0C1DFFFACF002A7F1C /* HPScrollImageController.m */,
-				56538F0D1DFFFACF002A7F1C /* HPZoomViewController.h */,
-				56538F0E1DFFFACF002A7F1C /* HPZoomViewController.m */,
-				56538F0F1DFFFACF002A7F1C /* IpadCalculatorViewController.h */,
-				56538F101DFFFACF002A7F1C /* IpadCalculatorViewController.m */,
-				56538F111DFFFACF002A7F1C /* IpadIndexTableViewController.h */,
-				56538F121DFFFACF002A7F1C /* IpadIndexTableViewController.m */,
+				567ED3E51E0242B000405CF1 /* ViewController */,
+				567ED3F01E0242B000405CF1 /* ViewModel */,
 			);
 			path = "Ipad端";
 			sourceTree = "<group>";
@@ -245,6 +274,56 @@
 				56538F151DFFFACF002A7F1C /* IphoneIndexTableViewController.m */,
 			);
 			path = "Iphone手机端";
+			sourceTree = "<group>";
+		};
+		567ED3E51E0242B000405CF1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				567ED3E61E0242B000405CF1 /* HPMovieViewController.h */,
+				567ED3E71E0242B000405CF1 /* HPMovieViewController.m */,
+				567ED3E81E0242B000405CF1 /* HPScrollImageController.h */,
+				567ED3E91E0242B000405CF1 /* HPScrollImageController.m */,
+				567ED3EA1E0242B000405CF1 /* HPZoomViewController.h */,
+				567ED3EB1E0242B000405CF1 /* HPZoomViewController.m */,
+				567ED3EC1E0242B000405CF1 /* IpadCalculatorViewController.h */,
+				567ED3ED1E0242B000405CF1 /* IpadCalculatorViewController.m */,
+				567ED3EE1E0242B000405CF1 /* IpadIndexTableViewController.h */,
+				567ED3EF1E0242B000405CF1 /* IpadIndexTableViewController.m */,
+				567ED3F91E024A6700405CF1 /* HPIpadBaseViewController.h */,
+				567ED3FA1E024A6700405CF1 /* HPIpadBaseViewController.m */,
+				567ED3FC1E026F3800405CF1 /* Ipad720ViewController.h */,
+				567ED3FD1E026F3800405CF1 /* Ipad720ViewController.m */,
+				567ED4191E027A0700405CF1 /* IpadSanWeiShowViewController.h */,
+				567ED41A1E027A0700405CF1 /* IpadSanWeiShowViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		567ED3F01E0242B000405CF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				567ED3F61E0242CD00405CF1 /* IpadIndexTableViewModel.h */,
+				567ED3F71E0242CD00405CF1 /* IpadIndexTableViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		567ED4021E0279E600405CF1 /* 鸟瞰旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				567ED4031E0279E600405CF1 /* nk__0.jpg */,
+				567ED4041E0279E600405CF1 /* nk__1.jpg */,
+				567ED4051E0279E600405CF1 /* nk__10.jpg */,
+				567ED4061E0279E600405CF1 /* nk__2.jpg */,
+				567ED4071E0279E600405CF1 /* nk__3.jpg */,
+				567ED4081E0279E600405CF1 /* nk__4.jpg */,
+				567ED4091E0279E600405CF1 /* nk__5.jpg */,
+				567ED40A1E0279E600405CF1 /* nk__6.jpg */,
+				567ED40B1E0279E600405CF1 /* nk__7.jpg */,
+				567ED40C1E0279E600405CF1 /* nk__8.jpg */,
+				567ED40D1E0279E600405CF1 /* nk__9.jpg */,
+			);
+			path = "鸟瞰旋转";
 			sourceTree = "<group>";
 		};
 		5C0517F523F82F05DB08E547 /* Frameworks */ = {
@@ -259,6 +338,7 @@
 		B258DB251C2BF575009EE819 /* ImageSource */ = {
 			isa = PBXGroup;
 			children = (
+				567ED4021E0279E600405CF1 /* 鸟瞰旋转 */,
 				56538EFB1DFFF8FF002A7F1C /* 滚动图片展示 */,
 			);
 			path = ImageSource;
@@ -357,6 +437,8 @@
 		B28831451C23F62A00A99181 /* HPBaseView */ = {
 			isa = PBXGroup;
 			children = (
+				567ED3FF1E02772F00405CF1 /* HPImageSequence.h */,
+				567ED4001E02772F00405CF1 /* HPImageSequence.m */,
 				B28A9E821C340AB7007B427D /* HPMRZoomScrollView.h */,
 				B28A9E831C340AB7007B427D /* HPMRZoomScrollView.m */,
 				B258DB221C2BEC47009EE819 /* HPCycleScrollView.h */,
@@ -486,8 +568,8 @@
 		B2E602E81C3D00C3009F97B4 /* HPBaseViewCotroller */ = {
 			isa = PBXGroup;
 			children = (
-				B2E602E91C3D00C3009F97B4 /* HPBaseViewController.h */,
-				B2E602EA1C3D00C3009F97B4 /* HPBaseViewController.m */,
+				B2E602E91C3D00C3009F97B4 /* HPIphoneBaseViewController.h */,
+				B2E602EA1C3D00C3009F97B4 /* HPIphoneBaseViewController.m */,
 			);
 			path = HPBaseViewCotroller;
 			sourceTree = "<group>";
@@ -626,6 +708,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567ED4141E0279E600405CF1 /* nk__5.jpg in Resources */,
+				567ED4121E0279E600405CF1 /* nk__3.jpg in Resources */,
+				567ED4101E0279E600405CF1 /* nk__10.jpg in Resources */,
+				567ED40F1E0279E600405CF1 /* nk__1.jpg in Resources */,
 				B2E602F51C3D00C3009F97B4 /* blueArrow@2x.png in Resources */,
 				B28831211C23E7F900A99181 /* LaunchScreen.storyboard in Resources */,
 				B22433D61C27F0CF00C6FB7A /* Main_Ipad.storyboard in Resources */,
@@ -633,10 +719,17 @@
 				56538F061DFFF8FF002A7F1C /* dbal_5.jpg in Resources */,
 				56538F041DFFF8FF002A7F1C /* dbal_3.jpg in Resources */,
 				B2DF11941C869237003653DD /* Resource in Resources */,
+				567ED4161E0279E600405CF1 /* nk__7.jpg in Resources */,
+				567ED4111E0279E600405CF1 /* nk__2.jpg in Resources */,
+				567ED4131E0279E600405CF1 /* nk__4.jpg in Resources */,
 				B2D8ABBE1C643B8600E9E439 /* MJRefresh.bundle in Resources */,
+				567ED4171E0279E600405CF1 /* nk__8.jpg in Resources */,
 				56538F021DFFF8FF002A7F1C /* dbal_1.jpg in Resources */,
+				567ED4151E0279E600405CF1 /* nk__6.jpg in Resources */,
+				567ED40E1E0279E600405CF1 /* nk__0.jpg in Resources */,
 				56538F071DFFF8FF002A7F1C /* dbal_6.jpg in Resources */,
 				B288311E1C23E7F900A99181 /* Assets.xcassets in Resources */,
+				567ED4181E0279E600405CF1 /* nk__9.jpg in Resources */,
 				B2E602F61C3D00C3009F97B4 /* blueArrowDown@2x.png in Resources */,
 				B288311C1C23E7F900A99181 /* Main_Iphone.storyboard in Resources */,
 				56538F051DFFF8FF002A7F1C /* dbal_4.jpg in Resources */,
@@ -697,40 +790,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567ED3F51E0242B000405CF1 /* IpadIndexTableViewController.m in Sources */,
 				B288317C1C23F62A00A99181 /* UIColor+Hex.m in Sources */,
 				B2D8ABE91C64408800E9E439 /* NSUserDefaults+Standard.m in Sources */,
+				567ED3F21E0242B000405CF1 /* HPScrollImageController.m in Sources */,
 				B288317F1C23F62A00A99181 /* UIViewExt.m in Sources */,
 				B2D8ABE71C64408800E9E439 /* FileUtil.m in Sources */,
 				B2D8ABDE1C64406100E9E439 /* PanoramaVCCache.m in Sources */,
 				B28831161C23E7F900A99181 /* AppDelegate.m in Sources */,
-				56538F1A1DFFFACF002A7F1C /* IpadIndexTableViewController.m in Sources */,
+				567ED4011E02772F00405CF1 /* HPImageSequence.m in Sources */,
 				B28831761C23F62A00A99181 /* NSDate+CovertDate.m in Sources */,
-				56538F191DFFFACF002A7F1C /* IpadCalculatorViewController.m in Sources */,
 				B28831771C23F62A00A99181 /* NSString+AlertView.m in Sources */,
 				B288317B1C23F62A00A99181 /* UIButton+TitleWithImg.m in Sources */,
 				B2D8ABC01C643B8600E9E439 /* MJRefreshConst.m in Sources */,
 				B288317A1C23F62A00A99181 /* NSString+NetWork.m in Sources */,
 				B2C4078B1C2D1073006FAA9C /* HPZoomView.m in Sources */,
-				56538F171DFFFACF002A7F1C /* HPScrollImageController.m in Sources */,
-				56538F181DFFFACF002A7F1C /* HPZoomViewController.m in Sources */,
 				B2E602F71C3D00C3009F97B4 /* PullingRefreshTableView.m in Sources */,
 				B2D8ABDF1C64406100E9E439 /* PanoWebVC.m in Sources */,
+				567ED3FE1E026F3800405CF1 /* Ipad720ViewController.m in Sources */,
 				B258DB241C2BEC47009EE819 /* HPCycleScrollView.m in Sources */,
-				B2E602F31C3D00C3009F97B4 /* HPBaseViewController.m in Sources */,
+				567ED3F31E0242B000405CF1 /* HPZoomViewController.m in Sources */,
+				567ED3F81E0242CD00405CF1 /* IpadIndexTableViewModel.m in Sources */,
+				B2E602F31C3D00C3009F97B4 /* HPIphoneBaseViewController.m in Sources */,
+				567ED41B1E027A0700405CF1 /* IpadSanWeiShowViewController.m in Sources */,
 				B2E602F41C3D00C3009F97B4 /* HPHttpServerRequest.m in Sources */,
 				B288317D1C23F62A00A99181 /* UIImage+RgbForImage.m in Sources */,
+				567ED3FB1E024A6700405CF1 /* HPIpadBaseViewController.m in Sources */,
 				B2D8ABBD1C643B8600E9E439 /* FDActionSheet.m in Sources */,
 				B2D8ABCE1C643E9700E9E439 /* HPTimeCheck.m in Sources */,
 				56538F1B1DFFFACF002A7F1C /* IphoneIndexTableViewController.m in Sources */,
 				B28831131C23E7F900A99181 /* main.m in Sources */,
+				567ED3F11E0242B000405CF1 /* HPMovieViewController.m in Sources */,
 				B2D8ABBF1C643B8600E9E439 /* MJRefreshBaseView.m in Sources */,
 				B2D8ABC91C643BF500E9E439 /* HPManagerCache.m in Sources */,
-				56538F161DFFFACF002A7F1C /* HPMovieViewController.m in Sources */,
 				B2D8ABC11C643B8600E9E439 /* MJRefreshFooterView.m in Sources */,
 				B288318C1C2401A600A99181 /* Reachability.m in Sources */,
 				B2D8ABC21C643B8600E9E439 /* MJRefreshHeaderView.m in Sources */,
 				B2D8ABE81C64408800E9E439 /* HPDocManager.m in Sources */,
 				B2D77F3A1C759C860038DD09 /* UICKeyChainStore.m in Sources */,
+				567ED3F41E0242B000405CF1 /* IpadCalculatorViewController.m in Sources */,
 				B28A9E841C340AB7007B427D /* HPMRZoomScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

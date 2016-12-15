@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama>
+<!-- Pano2VR 3.1.4 panorama configuration -->
+<view fovmode="0">
+<start pan="0" tilt="0" fov="70"/>
+<min pan="0" tilt="-90" fov="5"/>
+<max pan="360" tilt="90" fov="120"/>
+</view>
+<input tilesize="1250" tilescale="1.008" tile0url="images/B1kt_0.jpg" tile1url="images/B1kt_1.jpg" tile2url="images/B1kt_2.jpg" tile3url="images/B1kt_3.jpg" tile4url="images/B1kt_4.jpg" tile5url="images/B1kt_5.jpg" />
+<userdata title="" description="" author="" datetime="" copyright="" source="" info="" comment="" />
+<control sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" />
+<hotspots width="180" height="20" wordwrap="1" >
+<hotspot id="B1kt2" skinid="right" pan="-157.756" tilt="0.402759" title="..    入卧室" url="../卧室/1.html" target="" />
+</hotspots>
+<sounds>
+</sounds>
+</panorama>

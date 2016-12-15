@@ -6,13 +6,13 @@
 //
 //
 
-#import "HPBaseViewController.h"
+#import "HPIphoneBaseViewController.h"
 
-@interface HPBaseViewController ()
+@interface HPIphoneBaseViewController ()
 
 @end
 
-@implementation HPBaseViewController
+@implementation HPIphoneBaseViewController
 {
     UILabel *titleLabel;
 }
