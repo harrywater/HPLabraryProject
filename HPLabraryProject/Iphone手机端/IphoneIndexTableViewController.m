@@ -10,6 +10,8 @@
 #import "HPZoomViewController.h"
 #import "HPMovieViewController.h"
 #import <MediaPlayer/MediaPlayer.h>
+#import "HPWebViewController.h"
+#import "HPNSTimerDemoViewController.h"
 
 static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
 
@@ -25,7 +27,7 @@ static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_INDENTIFIER];
-    listArray=@[@"异步下载图片,缩放滚动",@"在线电影",@"3",@"4",@"6"];
+    listArray=@[@"异步下载图片,缩放滚动",@"在线电影",@"wenView加载",@"timer应用",@"6"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -61,17 +63,26 @@ static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+   
+    if(indexPath.row == 0){
+        HPZoomViewController* hpScrollImageView=[[HPZoomViewController alloc]init];
+        [self presentViewController:hpScrollImageView animated:YES completion:NULL];
+        return;
+    }
     if (indexPath.row==1) {
         HPMovieViewController* hpmovieViewController=[[HPMovieViewController alloc]init];
         [self presentViewController:hpmovieViewController animated:YES completion:NULL];
         return;
     }
     if (indexPath.row==2) {
-        [self movieBtnAction];
+        HPWebViewController* webVC = [[HPWebViewController alloc]init];
+        [self presentViewController:webVC animated:YES completion:NULL];
         return;
     }
-    HPZoomViewController* hpScrollImageView=[[HPZoomViewController alloc]init];
-    [self presentViewController:hpScrollImageView animated:YES completion:NULL];
+    if(indexPath.row == 3){
+        HPNSTimerDemoViewController* timerVC = [[HPNSTimerDemoViewController alloc]init];
+        [self presentViewController:timerVC animated:YES completion:NULL];
+    }
 }
 -(void)movieBtnAction{
     //    MPMoviePlayerViewController* moviePlayerController=[[MPMoviePlayerViewController alloc]initWithContentURL:[NSURL URLWithString:@"https://s3.amazonaws.com/adplayer/colgate.mp4"]];

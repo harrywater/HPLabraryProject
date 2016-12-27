@@ -20,6 +20,7 @@
     UIButton* movieBtn=[[UIButton alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
     movieBtn.layer.masksToBounds=YES;
     movieBtn.layer.cornerRadius=8;
+    [movieBtn setTitle:@"播放" forState:UIControlStateNormal];
     movieBtn.backgroundColor=[UIColor yellowColor];
     [movieBtn addTarget:self action:@selector(movieBtnAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:movieBtn];

@@ -20,7 +20,6 @@
 		567ED3F41E0242B000405CF1 /* IpadCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3ED1E0242B000405CF1 /* IpadCalculatorViewController.m */; };
 		567ED3F51E0242B000405CF1 /* IpadIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3EF1E0242B000405CF1 /* IpadIndexTableViewController.m */; };
 		567ED3F81E0242CD00405CF1 /* IpadIndexTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3F71E0242CD00405CF1 /* IpadIndexTableViewModel.m */; };
-		567ED3FB1E024A6700405CF1 /* HPIpadBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3FA1E024A6700405CF1 /* HPIpadBaseViewController.m */; };
 		567ED3FE1E026F3800405CF1 /* Ipad720ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3FD1E026F3800405CF1 /* Ipad720ViewController.m */; };
 		567ED4011E02772F00405CF1 /* HPImageSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED4001E02772F00405CF1 /* HPImageSequence.m */; };
 		567ED40E1E0279E600405CF1 /* nk__0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4031E0279E600405CF1 /* nk__0.jpg */; };
@@ -35,6 +34,9 @@
 		567ED4171E0279E600405CF1 /* nk__8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED40C1E0279E600405CF1 /* nk__8.jpg */; };
 		567ED4181E0279E600405CF1 /* nk__9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED40D1E0279E600405CF1 /* nk__9.jpg */; };
 		567ED41B1E027A0700405CF1 /* IpadSanWeiShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED41A1E027A0700405CF1 /* IpadSanWeiShowViewController.m */; };
+		567ED41F1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED41E1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m */; };
+		56D763451E0CBAF700854622 /* HPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D763441E0CBAF700854622 /* HPWebViewController.m */; };
+		56D763481E0CBC8D00854622 /* HPIpadBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D763471E0CBC8D00854622 /* HPIpadBaseViewController.m */; };
 		93C25B7F4A3EE48CD3A3BC4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3C6E3D77E9834713FD426E /* libPods.a */; };
 		B22433D61C27F0CF00C6FB7A /* Main_Ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22433D41C27F0CF00C6FB7A /* Main_Ipad.storyboard */; };
 		B258DB241C2BEC47009EE819 /* HPCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B258DB231C2BEC47009EE819 /* HPCycleScrollView.m */; };
@@ -116,8 +118,6 @@
 		567ED3EF1E0242B000405CF1 /* IpadIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadIndexTableViewController.m; sourceTree = "<group>"; };
 		567ED3F61E0242CD00405CF1 /* IpadIndexTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadIndexTableViewModel.h; sourceTree = "<group>"; };
 		567ED3F71E0242CD00405CF1 /* IpadIndexTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadIndexTableViewModel.m; sourceTree = "<group>"; };
-		567ED3F91E024A6700405CF1 /* HPIpadBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPIpadBaseViewController.h; sourceTree = "<group>"; };
-		567ED3FA1E024A6700405CF1 /* HPIpadBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPIpadBaseViewController.m; sourceTree = "<group>"; };
 		567ED3FC1E026F3800405CF1 /* Ipad720ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ipad720ViewController.h; sourceTree = "<group>"; };
 		567ED3FD1E026F3800405CF1 /* Ipad720ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ipad720ViewController.m; sourceTree = "<group>"; };
 		567ED3FF1E02772F00405CF1 /* HPImageSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageSequence.h; sourceTree = "<group>"; };
@@ -135,6 +135,12 @@
 		567ED40D1E0279E600405CF1 /* nk__9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__9.jpg; sourceTree = "<group>"; };
 		567ED4191E027A0700405CF1 /* IpadSanWeiShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadSanWeiShowViewController.h; sourceTree = "<group>"; };
 		567ED41A1E027A0700405CF1 /* IpadSanWeiShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadSanWeiShowViewController.m; sourceTree = "<group>"; };
+		567ED41D1E03EE4D00405CF1 /* HPNSTimerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNSTimerDemoViewController.h; sourceTree = "<group>"; };
+		567ED41E1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNSTimerDemoViewController.m; sourceTree = "<group>"; };
+		56D763431E0CBAF700854622 /* HPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWebViewController.h; sourceTree = "<group>"; };
+		56D763441E0CBAF700854622 /* HPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWebViewController.m; sourceTree = "<group>"; };
+		56D763461E0CBC8D00854622 /* HPIpadBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPIpadBaseViewController.h; sourceTree = "<group>"; };
+		56D763471E0CBC8D00854622 /* HPIpadBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPIpadBaseViewController.m; sourceTree = "<group>"; };
 		5A3C6E3D77E9834713FD426E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		873A956EC91B750713E3C29C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9B112369ECD8620859792757 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -270,8 +276,11 @@
 		56538F131DFFFACF002A7F1C /* Iphone手机端 */ = {
 			isa = PBXGroup;
 			children = (
+				567ED41C1E03EE2A00405CF1 /* NSTimer学习 */,
 				56538F141DFFFACF002A7F1C /* IphoneIndexTableViewController.h */,
 				56538F151DFFFACF002A7F1C /* IphoneIndexTableViewController.m */,
+				56D763431E0CBAF700854622 /* HPWebViewController.h */,
+				56D763441E0CBAF700854622 /* HPWebViewController.m */,
 			);
 			path = "Iphone手机端";
 			sourceTree = "<group>";
@@ -289,8 +298,6 @@
 				567ED3ED1E0242B000405CF1 /* IpadCalculatorViewController.m */,
 				567ED3EE1E0242B000405CF1 /* IpadIndexTableViewController.h */,
 				567ED3EF1E0242B000405CF1 /* IpadIndexTableViewController.m */,
-				567ED3F91E024A6700405CF1 /* HPIpadBaseViewController.h */,
-				567ED3FA1E024A6700405CF1 /* HPIpadBaseViewController.m */,
 				567ED3FC1E026F3800405CF1 /* Ipad720ViewController.h */,
 				567ED3FD1E026F3800405CF1 /* Ipad720ViewController.m */,
 				567ED4191E027A0700405CF1 /* IpadSanWeiShowViewController.h */,
@@ -324,6 +331,15 @@
 				567ED40D1E0279E600405CF1 /* nk__9.jpg */,
 			);
 			path = "鸟瞰旋转";
+			sourceTree = "<group>";
+		};
+		567ED41C1E03EE2A00405CF1 /* NSTimer学习 */ = {
+			isa = PBXGroup;
+			children = (
+				567ED41D1E03EE4D00405CF1 /* HPNSTimerDemoViewController.h */,
+				567ED41E1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m */,
+			);
+			path = "NSTimer学习";
 			sourceTree = "<group>";
 		};
 		5C0517F523F82F05DB08E547 /* Frameworks */ = {
@@ -568,6 +584,8 @@
 		B2E602E81C3D00C3009F97B4 /* HPBaseViewCotroller */ = {
 			isa = PBXGroup;
 			children = (
+				56D763461E0CBC8D00854622 /* HPIpadBaseViewController.h */,
+				56D763471E0CBC8D00854622 /* HPIpadBaseViewController.m */,
 				B2E602E91C3D00C3009F97B4 /* HPIphoneBaseViewController.h */,
 				B2E602EA1C3D00C3009F97B4 /* HPIphoneBaseViewController.m */,
 			);
@@ -799,6 +817,7 @@
 				B2D8ABDE1C64406100E9E439 /* PanoramaVCCache.m in Sources */,
 				B28831161C23E7F900A99181 /* AppDelegate.m in Sources */,
 				567ED4011E02772F00405CF1 /* HPImageSequence.m in Sources */,
+				567ED41F1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m in Sources */,
 				B28831761C23F62A00A99181 /* NSDate+CovertDate.m in Sources */,
 				B28831771C23F62A00A99181 /* NSString+AlertView.m in Sources */,
 				B288317B1C23F62A00A99181 /* UIButton+TitleWithImg.m in Sources */,
@@ -808,6 +827,7 @@
 				B2E602F71C3D00C3009F97B4 /* PullingRefreshTableView.m in Sources */,
 				B2D8ABDF1C64406100E9E439 /* PanoWebVC.m in Sources */,
 				567ED3FE1E026F3800405CF1 /* Ipad720ViewController.m in Sources */,
+				56D763481E0CBC8D00854622 /* HPIpadBaseViewController.m in Sources */,
 				B258DB241C2BEC47009EE819 /* HPCycleScrollView.m in Sources */,
 				567ED3F31E0242B000405CF1 /* HPZoomViewController.m in Sources */,
 				567ED3F81E0242CD00405CF1 /* IpadIndexTableViewModel.m in Sources */,
@@ -815,7 +835,6 @@
 				567ED41B1E027A0700405CF1 /* IpadSanWeiShowViewController.m in Sources */,
 				B2E602F41C3D00C3009F97B4 /* HPHttpServerRequest.m in Sources */,
 				B288317D1C23F62A00A99181 /* UIImage+RgbForImage.m in Sources */,
-				567ED3FB1E024A6700405CF1 /* HPIpadBaseViewController.m in Sources */,
 				B2D8ABBD1C643B8600E9E439 /* FDActionSheet.m in Sources */,
 				B2D8ABCE1C643E9700E9E439 /* HPTimeCheck.m in Sources */,
 				56538F1B1DFFFACF002A7F1C /* IphoneIndexTableViewController.m in Sources */,
@@ -824,6 +843,7 @@
 				B2D8ABBF1C643B8600E9E439 /* MJRefreshBaseView.m in Sources */,
 				B2D8ABC91C643BF500E9E439 /* HPManagerCache.m in Sources */,
 				B2D8ABC11C643B8600E9E439 /* MJRefreshFooterView.m in Sources */,
+				56D763451E0CBAF700854622 /* HPWebViewController.m in Sources */,
 				B288318C1C2401A600A99181 /* Reachability.m in Sources */,
 				B2D8ABC21C643B8600E9E439 /* MJRefreshHeaderView.m in Sources */,
 				B2D8ABE81C64408800E9E439 /* HPDocManager.m in Sources */,
