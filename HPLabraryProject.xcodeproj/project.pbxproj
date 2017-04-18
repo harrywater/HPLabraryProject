@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		563AF8A71EA5E55400A768E0 /* HPCoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563AF8A61EA5E55400A768E0 /* HPCoreTextViewController.m */; };
 		56538F021DFFF8FF002A7F1C /* dbal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56538EFC1DFFF8FF002A7F1C /* dbal_1.jpg */; };
 		56538F031DFFF8FF002A7F1C /* dbal_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56538EFD1DFFF8FF002A7F1C /* dbal_2.jpg */; };
 		56538F041DFFF8FF002A7F1C /* dbal_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56538EFE1DFFF8FF002A7F1C /* dbal_3.jpg */; };
@@ -99,6 +100,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		563AF8A51EA5E55400A768E0 /* HPCoreTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCoreTextViewController.h; sourceTree = "<group>"; };
+		563AF8A61EA5E55400A768E0 /* HPCoreTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCoreTextViewController.m; sourceTree = "<group>"; };
 		56538EFC1DFFF8FF002A7F1C /* dbal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dbal_1.jpg; sourceTree = "<group>"; };
 		56538EFD1DFFF8FF002A7F1C /* dbal_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dbal_2.jpg; sourceTree = "<group>"; };
 		56538EFE1DFFF8FF002A7F1C /* dbal_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dbal_3.jpg; sourceTree = "<group>"; };
@@ -254,6 +257,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		563AF8A41EA5E51300A768E0 /* UITextView图文混排 */ = {
+			isa = PBXGroup;
+			children = (
+				563AF8A51EA5E55400A768E0 /* HPCoreTextViewController.h */,
+				563AF8A61EA5E55400A768E0 /* HPCoreTextViewController.m */,
+			);
+			path = "UITextView图文混排";
+			sourceTree = "<group>";
+		};
 		56538EFB1DFFF8FF002A7F1C /* 滚动图片展示 */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +291,7 @@
 		56538F131DFFFACF002A7F1C /* Iphone手机端 */ = {
 			isa = PBXGroup;
 			children = (
+				563AF8A41EA5E51300A768E0 /* UITextView图文混排 */,
 				5682D02B1E55405900BB5374 /* 循环TableView */,
 				567ED41C1E03EE2A00405CF1 /* NSTimer学习 */,
 				56538F141DFFFACF002A7F1C /* IphoneIndexTableViewController.h */,
@@ -823,6 +836,7 @@
 			files = (
 				567ED3F51E0242B000405CF1 /* IpadIndexTableViewController.m in Sources */,
 				B288317C1C23F62A00A99181 /* UIColor+Hex.m in Sources */,
+				563AF8A71EA5E55400A768E0 /* HPCoreTextViewController.m in Sources */,
 				B2D8ABE91C64408800E9E439 /* NSUserDefaults+Standard.m in Sources */,
 				567ED3F21E0242B000405CF1 /* HPScrollImageController.m in Sources */,
 				B288317F1C23F62A00A99181 /* UIViewExt.m in Sources */,

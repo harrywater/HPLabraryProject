@@ -13,6 +13,7 @@
 #import "HPWebViewController.h"
 #import "HPNSTimerDemoViewController.h"
 #import "HPCycleViewController.h"
+#import "HPCoreTextViewController.h"
 
 static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
 
@@ -28,7 +29,7 @@ static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_INDENTIFIER];
-    listArray=@[@"异步下载图片,缩放滚动",@"在线电影",@"wenView加载",@"timer应用",@"循环tableView"];
+    listArray=@[@"异步下载图片,缩放滚动",@"在线电影",@"wenView加载",@"timer应用",@"循环tableView",@"UITextView图文混排"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -87,6 +88,10 @@ static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
     if (indexPath.row == 4) {
         HPCycleViewController* scroVC = [[HPCycleViewController alloc]init];
         [self presentViewController:scroVC animated:YES completion:NULL];
+    }
+    if (indexPath.row == 5) {
+        HPCoreTextViewController* coreVC = [[HPCoreTextViewController alloc]init];
+        [self presentViewController:coreVC animated:YES completion:NULL];
     }
 }
 -(void)movieBtnAction{
