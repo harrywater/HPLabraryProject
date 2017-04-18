@@ -6,8 +6,8 @@
 //  Copyright © 2015年 王辉平. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HPIphoneBaseViewController.h"
 
-@interface HPMovieViewController : UIViewController
+@interface HPMovieViewController : HPIphoneBaseViewController
 
 @end

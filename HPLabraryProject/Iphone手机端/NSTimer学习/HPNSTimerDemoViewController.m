@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.view addSubview:self.backBtn];
 //    NSLog(@"mainThreadRunLoop====%@",[NSRunLoop currentRunLoop]);
     // 实现1 异步线程开启timer
 //    dispatch_async(dispatch_get_global_queue(0, 0), ^{

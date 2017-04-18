@@ -24,6 +24,7 @@
     movieBtn.backgroundColor=[UIColor yellowColor];
     [movieBtn addTarget:self action:@selector(movieBtnAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:movieBtn];
+    [self.view addSubview:self.backBtn];
     
 }
 -(void)movieBtnAction{

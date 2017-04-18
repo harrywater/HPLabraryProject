@@ -6,8 +6,8 @@
 //  Copyright © 2016年 王辉平. All rights reserved.
 //
 
-#import "HPIpadBaseViewController.h"
+#import "HPIphoneBaseViewController.h"
 
-@interface HPWebViewController : HPIpadBaseViewController
+@interface HPWebViewController : HPIphoneBaseViewController
 
 @end

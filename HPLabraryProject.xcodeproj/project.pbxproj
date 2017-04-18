@@ -35,6 +35,7 @@
 		567ED4181E0279E600405CF1 /* nk__9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED40D1E0279E600405CF1 /* nk__9.jpg */; };
 		567ED41B1E027A0700405CF1 /* IpadSanWeiShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED41A1E027A0700405CF1 /* IpadSanWeiShowViewController.m */; };
 		567ED41F1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED41E1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m */; };
+		5682D02E1E55408D00BB5374 /* HPCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682D02D1E55408D00BB5374 /* HPCycleViewController.m */; };
 		56D763451E0CBAF700854622 /* HPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D763441E0CBAF700854622 /* HPWebViewController.m */; };
 		56D763481E0CBC8D00854622 /* HPIpadBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D763471E0CBC8D00854622 /* HPIpadBaseViewController.m */; };
 		93C25B7F4A3EE48CD3A3BC4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3C6E3D77E9834713FD426E /* libPods.a */; };
@@ -137,6 +138,8 @@
 		567ED41A1E027A0700405CF1 /* IpadSanWeiShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadSanWeiShowViewController.m; sourceTree = "<group>"; };
 		567ED41D1E03EE4D00405CF1 /* HPNSTimerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNSTimerDemoViewController.h; sourceTree = "<group>"; };
 		567ED41E1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNSTimerDemoViewController.m; sourceTree = "<group>"; };
+		5682D02C1E55408D00BB5374 /* HPCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCycleViewController.h; sourceTree = "<group>"; };
+		5682D02D1E55408D00BB5374 /* HPCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCycleViewController.m; sourceTree = "<group>"; };
 		56D763431E0CBAF700854622 /* HPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWebViewController.h; sourceTree = "<group>"; };
 		56D763441E0CBAF700854622 /* HPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWebViewController.m; sourceTree = "<group>"; };
 		56D763461E0CBC8D00854622 /* HPIpadBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPIpadBaseViewController.h; sourceTree = "<group>"; };
@@ -276,6 +279,7 @@
 		56538F131DFFFACF002A7F1C /* Iphone手机端 */ = {
 			isa = PBXGroup;
 			children = (
+				5682D02B1E55405900BB5374 /* 循环TableView */,
 				567ED41C1E03EE2A00405CF1 /* NSTimer学习 */,
 				56538F141DFFFACF002A7F1C /* IphoneIndexTableViewController.h */,
 				56538F151DFFFACF002A7F1C /* IphoneIndexTableViewController.m */,
@@ -342,6 +346,15 @@
 			path = "NSTimer学习";
 			sourceTree = "<group>";
 		};
+		5682D02B1E55405900BB5374 /* 循环TableView */ = {
+			isa = PBXGroup;
+			children = (
+				5682D02C1E55408D00BB5374 /* HPCycleViewController.h */,
+				5682D02D1E55408D00BB5374 /* HPCycleViewController.m */,
+			);
+			path = "循环TableView";
+			sourceTree = "<group>";
+		};
 		5C0517F523F82F05DB08E547 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,10 +376,10 @@
 		B28831051C23E7F900A99181 = {
 			isa = PBXGroup;
 			children = (
+				B258DB251C2BF575009EE819 /* ImageSource */,
 				B2DF11931C869237003653DD /* Resource */,
 				B28831441C23F62A00A99181 /* HPLabrary */,
 				B28831101C23E7F900A99181 /* HPLabraryProject */,
-				B258DB251C2BF575009EE819 /* ImageSource */,
 				B288312A1C23E7F900A99181 /* HPLabraryProjectTests */,
 				B28831351C23E7FA00A99181 /* HPLabraryProjectUITests */,
 				B288310F1C23E7F900A99181 /* Products */,
@@ -815,6 +828,7 @@
 				B288317F1C23F62A00A99181 /* UIViewExt.m in Sources */,
 				B2D8ABE71C64408800E9E439 /* FileUtil.m in Sources */,
 				B2D8ABDE1C64406100E9E439 /* PanoramaVCCache.m in Sources */,
+				5682D02E1E55408D00BB5374 /* HPCycleViewController.m in Sources */,
 				B28831161C23E7F900A99181 /* AppDelegate.m in Sources */,
 				567ED4011E02772F00405CF1 /* HPImageSequence.m in Sources */,
 				567ED41F1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m in Sources */,
