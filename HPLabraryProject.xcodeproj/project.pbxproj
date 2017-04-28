@@ -22,7 +22,6 @@
 		567ED3F51E0242B000405CF1 /* IpadIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3EF1E0242B000405CF1 /* IpadIndexTableViewController.m */; };
 		567ED3F81E0242CD00405CF1 /* IpadIndexTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3F71E0242CD00405CF1 /* IpadIndexTableViewModel.m */; };
 		567ED3FE1E026F3800405CF1 /* Ipad720ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED3FD1E026F3800405CF1 /* Ipad720ViewController.m */; };
-		567ED4011E02772F00405CF1 /* HPImageSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED4001E02772F00405CF1 /* HPImageSequence.m */; };
 		567ED40E1E0279E600405CF1 /* nk__0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4031E0279E600405CF1 /* nk__0.jpg */; };
 		567ED40F1E0279E600405CF1 /* nk__1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4041E0279E600405CF1 /* nk__1.jpg */; };
 		567ED4101E0279E600405CF1 /* nk__10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 567ED4051E0279E600405CF1 /* nk__10.jpg */; };
@@ -37,11 +36,14 @@
 		567ED41B1E027A0700405CF1 /* IpadSanWeiShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED41A1E027A0700405CF1 /* IpadSanWeiShowViewController.m */; };
 		567ED41F1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ED41E1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m */; };
 		5682D02E1E55408D00BB5374 /* HPCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682D02D1E55408D00BB5374 /* HPCycleViewController.m */; };
+		568AF8541EB2E8F800D07F1C /* HPImageSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 568AF84B1EB2E8F800D07F1C /* HPImageSequence.m */; };
+		568AF8551EB2E8F800D07F1C /* HPMRZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 568AF84E1EB2E8F800D07F1C /* HPMRZoomScrollView.m */; };
+		568AF8561EB2E8F800D07F1C /* HPZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 568AF8501EB2E8F800D07F1C /* HPZoomView.m */; };
+		568AF8571EB2E8F800D07F1C /* HPCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 568AF8531EB2E8F800D07F1C /* HPCycleScrollView.m */; };
 		56D763451E0CBAF700854622 /* HPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D763441E0CBAF700854622 /* HPWebViewController.m */; };
 		56D763481E0CBC8D00854622 /* HPIpadBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D763471E0CBC8D00854622 /* HPIpadBaseViewController.m */; };
 		93C25B7F4A3EE48CD3A3BC4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3C6E3D77E9834713FD426E /* libPods.a */; };
 		B22433D61C27F0CF00C6FB7A /* Main_Ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22433D41C27F0CF00C6FB7A /* Main_Ipad.storyboard */; };
-		B258DB241C2BEC47009EE819 /* HPCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B258DB231C2BEC47009EE819 /* HPCycleScrollView.m */; };
 		B28831131C23E7F900A99181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B28831121C23E7F900A99181 /* main.m */; };
 		B28831161C23E7F900A99181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B28831151C23E7F900A99181 /* AppDelegate.m */; };
 		B288311C1C23E7F900A99181 /* Main_Iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B288311A1C23E7F900A99181 /* Main_Iphone.storyboard */; };
@@ -57,9 +59,7 @@
 		B288317D1C23F62A00A99181 /* UIImage+RgbForImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B28831681C23F62A00A99181 /* UIImage+RgbForImage.m */; };
 		B288317F1C23F62A00A99181 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = B288316C1C23F62A00A99181 /* UIViewExt.m */; };
 		B288318C1C2401A600A99181 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B288318B1C2401A600A99181 /* Reachability.m */; };
-		B28A9E841C340AB7007B427D /* HPMRZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B28A9E831C340AB7007B427D /* HPMRZoomScrollView.m */; };
 		B291A00A1C33D18600298B25 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B291A0091C33D18600298B25 /* MediaPlayer.framework */; };
-		B2C4078B1C2D1073006FAA9C /* HPZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C4078A1C2D1073006FAA9C /* HPZoomView.m */; };
 		B2D77F3A1C759C860038DD09 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D77F391C759C860038DD09 /* UICKeyChainStore.m */; };
 		B2D8ABBD1C643B8600E9E439 /* FDActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8ABB11C643B8600E9E439 /* FDActionSheet.m */; };
 		B2D8ABBE1C643B8600E9E439 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2D8ABB31C643B8600E9E439 /* MJRefresh.bundle */; };
@@ -124,8 +124,6 @@
 		567ED3F71E0242CD00405CF1 /* IpadIndexTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadIndexTableViewModel.m; sourceTree = "<group>"; };
 		567ED3FC1E026F3800405CF1 /* Ipad720ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ipad720ViewController.h; sourceTree = "<group>"; };
 		567ED3FD1E026F3800405CF1 /* Ipad720ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ipad720ViewController.m; sourceTree = "<group>"; };
-		567ED3FF1E02772F00405CF1 /* HPImageSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageSequence.h; sourceTree = "<group>"; };
-		567ED4001E02772F00405CF1 /* HPImageSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPImageSequence.m; sourceTree = "<group>"; };
 		567ED4031E0279E600405CF1 /* nk__0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__0.jpg; sourceTree = "<group>"; };
 		567ED4041E0279E600405CF1 /* nk__1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__1.jpg; sourceTree = "<group>"; };
 		567ED4051E0279E600405CF1 /* nk__10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nk__10.jpg; sourceTree = "<group>"; };
@@ -143,6 +141,14 @@
 		567ED41E1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNSTimerDemoViewController.m; sourceTree = "<group>"; };
 		5682D02C1E55408D00BB5374 /* HPCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCycleViewController.h; sourceTree = "<group>"; };
 		5682D02D1E55408D00BB5374 /* HPCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCycleViewController.m; sourceTree = "<group>"; };
+		568AF84A1EB2E8F800D07F1C /* HPImageSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageSequence.h; sourceTree = "<group>"; };
+		568AF84B1EB2E8F800D07F1C /* HPImageSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPImageSequence.m; sourceTree = "<group>"; };
+		568AF84D1EB2E8F800D07F1C /* HPMRZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMRZoomScrollView.h; sourceTree = "<group>"; };
+		568AF84E1EB2E8F800D07F1C /* HPMRZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMRZoomScrollView.m; sourceTree = "<group>"; };
+		568AF84F1EB2E8F800D07F1C /* HPZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPZoomView.h; sourceTree = "<group>"; };
+		568AF8501EB2E8F800D07F1C /* HPZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPZoomView.m; sourceTree = "<group>"; };
+		568AF8521EB2E8F800D07F1C /* HPCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCycleScrollView.h; sourceTree = "<group>"; };
+		568AF8531EB2E8F800D07F1C /* HPCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCycleScrollView.m; sourceTree = "<group>"; };
 		56D763431E0CBAF700854622 /* HPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWebViewController.h; sourceTree = "<group>"; };
 		56D763441E0CBAF700854622 /* HPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWebViewController.m; sourceTree = "<group>"; };
 		56D763461E0CBC8D00854622 /* HPIpadBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPIpadBaseViewController.h; sourceTree = "<group>"; };
@@ -152,8 +158,6 @@
 		9B112369ECD8620859792757 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B22433D31C27DF3F00C6FB7A /* HPConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPConstant.h; sourceTree = "<group>"; };
 		B22433D51C27F0CF00C6FB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_Ipad.storyboard; sourceTree = "<group>"; };
-		B258DB221C2BEC47009EE819 /* HPCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCycleScrollView.h; sourceTree = "<group>"; };
-		B258DB231C2BEC47009EE819 /* HPCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCycleScrollView.m; sourceTree = "<group>"; };
 		B288310E1C23E7F900A99181 /* HPLabraryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPLabraryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28831121C23E7F900A99181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B28831141C23E7F900A99181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -185,11 +189,7 @@
 		B28831851C23F8CE00A99181 /* HPPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPPrefixHeader.pch; sourceTree = "<group>"; };
 		B288318A1C2401A600A99181 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B288318B1C2401A600A99181 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		B28A9E821C340AB7007B427D /* HPMRZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMRZoomScrollView.h; sourceTree = "<group>"; };
-		B28A9E831C340AB7007B427D /* HPMRZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMRZoomScrollView.m; sourceTree = "<group>"; };
 		B291A0091C33D18600298B25 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		B2C407891C2D1073006FAA9C /* HPZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPZoomView.h; sourceTree = "<group>"; };
-		B2C4078A1C2D1073006FAA9C /* HPZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPZoomView.m; sourceTree = "<group>"; };
 		B2D77F381C759C860038DD09 /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
 		B2D77F391C759C860038DD09 /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
 		B2D8ABB01C643B8600E9E439 /* FDActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDActionSheet.h; sourceTree = "<group>"; };
@@ -368,6 +368,45 @@
 			path = "循环TableView";
 			sourceTree = "<group>";
 		};
+		568AF8481EB2E79E00D07F1C /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				568AF8491EB2E8F800D07F1C /* 滑动序列帧View */,
+				568AF84C1EB2E8F800D07F1C /* 缩放大小View */,
+				568AF8511EB2E8F800D07F1C /* 循环滚动View */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		568AF8491EB2E8F800D07F1C /* 滑动序列帧View */ = {
+			isa = PBXGroup;
+			children = (
+				568AF84A1EB2E8F800D07F1C /* HPImageSequence.h */,
+				568AF84B1EB2E8F800D07F1C /* HPImageSequence.m */,
+			);
+			path = "滑动序列帧View";
+			sourceTree = "<group>";
+		};
+		568AF84C1EB2E8F800D07F1C /* 缩放大小View */ = {
+			isa = PBXGroup;
+			children = (
+				568AF84D1EB2E8F800D07F1C /* HPMRZoomScrollView.h */,
+				568AF84E1EB2E8F800D07F1C /* HPMRZoomScrollView.m */,
+				568AF84F1EB2E8F800D07F1C /* HPZoomView.h */,
+				568AF8501EB2E8F800D07F1C /* HPZoomView.m */,
+			);
+			path = "缩放大小View";
+			sourceTree = "<group>";
+		};
+		568AF8511EB2E8F800D07F1C /* 循环滚动View */ = {
+			isa = PBXGroup;
+			children = (
+				568AF8521EB2E8F800D07F1C /* HPCycleScrollView.h */,
+				568AF8531EB2E8F800D07F1C /* HPCycleScrollView.m */,
+			);
+			path = "循环滚动View";
+			sourceTree = "<group>";
+		};
 		5C0517F523F82F05DB08E547 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,6 +497,7 @@
 		B28831441C23F62A00A99181 /* HPLabrary */ = {
 			isa = PBXGroup;
 			children = (
+				568AF8481EB2E79E00D07F1C /* CommonView */,
 				B2D77F371C759C860038DD09 /* UICKeyChainStore */,
 				B2D8ABE01C64408800E9E439 /* HPDocManager */,
 				B2D8ABD61C64406100E9E439 /* HPPanorama */,
@@ -470,25 +510,9 @@
 				B2E602EE1C3D00C3009F97B4 /* PullingRefreshTableView */,
 				B22433D31C27DF3F00C6FB7A /* HPConstant.h */,
 				B28831891C2401A600A99181 /* Reachability */,
-				B28831451C23F62A00A99181 /* HPBaseView */,
 				B28831581C23F62A00A99181 /* HPCategory */,
 			);
 			path = HPLabrary;
-			sourceTree = "<group>";
-		};
-		B28831451C23F62A00A99181 /* HPBaseView */ = {
-			isa = PBXGroup;
-			children = (
-				567ED3FF1E02772F00405CF1 /* HPImageSequence.h */,
-				567ED4001E02772F00405CF1 /* HPImageSequence.m */,
-				B28A9E821C340AB7007B427D /* HPMRZoomScrollView.h */,
-				B28A9E831C340AB7007B427D /* HPMRZoomScrollView.m */,
-				B258DB221C2BEC47009EE819 /* HPCycleScrollView.h */,
-				B258DB231C2BEC47009EE819 /* HPCycleScrollView.m */,
-				B2C407891C2D1073006FAA9C /* HPZoomView.h */,
-				B2C4078A1C2D1073006FAA9C /* HPZoomView.m */,
-			);
-			path = HPBaseView;
 			sourceTree = "<group>";
 		};
 		B28831581C23F62A00A99181 /* HPCategory */ = {
@@ -838,25 +862,26 @@
 				B288317C1C23F62A00A99181 /* UIColor+Hex.m in Sources */,
 				563AF8A71EA5E55400A768E0 /* HPCoreTextViewController.m in Sources */,
 				B2D8ABE91C64408800E9E439 /* NSUserDefaults+Standard.m in Sources */,
+				568AF8571EB2E8F800D07F1C /* HPCycleScrollView.m in Sources */,
 				567ED3F21E0242B000405CF1 /* HPScrollImageController.m in Sources */,
 				B288317F1C23F62A00A99181 /* UIViewExt.m in Sources */,
 				B2D8ABE71C64408800E9E439 /* FileUtil.m in Sources */,
 				B2D8ABDE1C64406100E9E439 /* PanoramaVCCache.m in Sources */,
 				5682D02E1E55408D00BB5374 /* HPCycleViewController.m in Sources */,
+				568AF8541EB2E8F800D07F1C /* HPImageSequence.m in Sources */,
 				B28831161C23E7F900A99181 /* AppDelegate.m in Sources */,
-				567ED4011E02772F00405CF1 /* HPImageSequence.m in Sources */,
 				567ED41F1E03EE4D00405CF1 /* HPNSTimerDemoViewController.m in Sources */,
 				B28831761C23F62A00A99181 /* NSDate+CovertDate.m in Sources */,
 				B28831771C23F62A00A99181 /* NSString+AlertView.m in Sources */,
 				B288317B1C23F62A00A99181 /* UIButton+TitleWithImg.m in Sources */,
 				B2D8ABC01C643B8600E9E439 /* MJRefreshConst.m in Sources */,
 				B288317A1C23F62A00A99181 /* NSString+NetWork.m in Sources */,
-				B2C4078B1C2D1073006FAA9C /* HPZoomView.m in Sources */,
 				B2E602F71C3D00C3009F97B4 /* PullingRefreshTableView.m in Sources */,
 				B2D8ABDF1C64406100E9E439 /* PanoWebVC.m in Sources */,
+				568AF8561EB2E8F800D07F1C /* HPZoomView.m in Sources */,
+				568AF8551EB2E8F800D07F1C /* HPMRZoomScrollView.m in Sources */,
 				567ED3FE1E026F3800405CF1 /* Ipad720ViewController.m in Sources */,
 				56D763481E0CBC8D00854622 /* HPIpadBaseViewController.m in Sources */,
-				B258DB241C2BEC47009EE819 /* HPCycleScrollView.m in Sources */,
 				567ED3F31E0242B000405CF1 /* HPZoomViewController.m in Sources */,
 				567ED3F81E0242CD00405CF1 /* IpadIndexTableViewModel.m in Sources */,
 				B2E602F31C3D00C3009F97B4 /* HPIphoneBaseViewController.m in Sources */,
@@ -877,7 +902,6 @@
 				B2D8ABE81C64408800E9E439 /* HPDocManager.m in Sources */,
 				B2D77F3A1C759C860038DD09 /* UICKeyChainStore.m in Sources */,
 				567ED3F41E0242B000405CF1 /* IpadCalculatorViewController.m in Sources */,
-				B28A9E841C340AB7007B427D /* HPMRZoomScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
