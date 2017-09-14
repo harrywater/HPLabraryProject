@@ -11,10 +11,7 @@
 
 @implementation HPImageSequence
 @synthesize prefix, numberOfImages, extension, increment;
-- (void)resetCurrent
-{
-    current = 0;
-}
+
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
 	if(increment == 0)
 		increment = 1;
@@ -24,6 +21,7 @@
     CGPoint touchLocation = [touch locationInView:self];
     
 	previous = touchLocation.x;
+
 }
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -34,23 +32,11 @@
 	
 	int location = touchLocation.x;
 	
-    if(self.slideOrientation == Orientation_right){
-        
-        if(location < previous){
-            current -= increment;
-        }else{
-            current += increment;
-        }
-        
-    }else{
-        
-        if(location < previous){
-            current += increment;
-        }else{
-            current -= increment;
-        }
-    }
-   
+	if(location < previous)
+		current += increment;
+	else
+		current -= increment;
+	
 	previous = location;
    
     if(current > numberOfImages){
@@ -66,12 +52,12 @@
     if (_setButtonAppearblock) {
         _setButtonAppearblock(current);
     }
-	NSString *path = [NSString stringWithFormat:@"%@%d", prefix, current];
-//	DLog(@"图片的按下====%@", path);
-	
-	path = [[NSBundle mainBundle] pathForResource:path ofType:extension];
-//    DLog(@"ppp====%@",path);
-	UIImage *img =  [[UIImage alloc] initWithContentsOfFile:path];
+	NSString *path = [NSString stringWithFormat:@"%@%d.%@", prefix, current,extension];
+	DLog(@"图片的按下====%@", path);
+//	NSString *path = [NSString stringWithFormat:@"%@%d", prefix, current];
+//	path = [[NSBundle mainBundle] pathForResource:path ofType:extension];
+//    UIImage* img =  [[UIImage alloc] initWithContentsOfFile:imgPath];
+	UIImage* img =  getTouchImage(path);
 	[self setImage:img];
 }
 

@@ -20,6 +20,7 @@
 +(NSString*)touchFileWithPath:(NSString*)aSortPath;
 +(NSString*)swfFileWithPath:(NSString*)aSortPath;
 +(NSString*)vedioFileWithPath:(NSString*)aSortPath;
++(NSString*)musicFileWithPath:(NSString*)aSortPath;
 
 +(UIImage*)getSkinImage:(NSString*)aName;
 +(UIImage*)getTouchImage:(NSString*)aName;

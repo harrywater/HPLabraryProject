@@ -14,12 +14,6 @@ typedef NS_ENUM(NSInteger,RevolveModel) {
     Revolve_180,
     Revolve_360,
 };
-
-typedef NS_ENUM(NSInteger,SlideOrientation) {
-    Orientation_left, //左滑动
-    Orientation_right,//右滑动
-};
-
 @interface HPImageSequence : UIImageView {
 	NSString *prefix;
 	int numberOfImages;
@@ -33,8 +27,6 @@ typedef NS_ENUM(NSInteger,SlideOrientation) {
 @property (readwrite, copy) NSString *extension;
 @property (readwrite, copy) NSString *prefix;
 @property (readwrite) int numberOfImages;
-@property (nonatomic, copy)SETBUTTONAPPEAR_BLOCK setButtonAppearblock;
-@property (nonatomic, assign)SlideOrientation slideOrientation;//滑动方向
-- (void)resetCurrent;
+@property (nonatomic,copy)SETBUTTONAPPEAR_BLOCK setButtonAppearblock;
 @end
 

@@ -8,15 +8,14 @@
 //作用:缩放图片
 
 #import <UIKit/UIKit.h>
-
+typedef void(^HandleMRZoomBlock)(CGFloat scale);
 
 @interface HPMRZoomScrollView : UIScrollView <UIScrollViewDelegate>
 {
     UIImageView *_imageView;
-   __weak UIImageView* _indexLogo;
 }
 
 @property (nonatomic, strong) UIImageView *imageView;
-@property (nonatomic, weak) UIImageView * indexLogo;
-
+@property (nonatomic, copy) HandleMRZoomBlock handleBlock;
+//- (void)resetDefaultScale;
 @end

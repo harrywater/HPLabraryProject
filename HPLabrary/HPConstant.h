@@ -15,6 +15,42 @@
 #define apiRootUrl @"http://api.ixingmei.com/Api/Page/index/format_type/json"
 #endif
 
+
+// 宏定义
+#define docPath ([[HPDocManager documentPath] stringByAppendingPathComponent:@"Resource"])
+
+#define getSkinImage(_name) [HPDocManager getSkinImage:_name]
+#define getTouchImage(_name) [HPDocManager getTouchImage:_name]
+#define getFullPathImage(_path) [UIImage imageWithContentsOfFile:_path]
+
+#define getAssetImageByName(stringName)  [UIImage imageNamed:stringName]
+#define getImageFromImgDirByName(stringName)  [UIImage imageNamed:stringName]
+
+#define getColorWithAssetImageName(stringName)  [UIColor colorWithPatternImage:[UIImage imageNamed:stringName]]
+
+#define VIEW_RECT_FRAME CGRectMake(0, 0, [[UIScreen mainScreen]bounds].size.width,[[UIScreen mainScreen]bounds].size.height)
+
+#define ScreenFrame			    [UIScreen mainScreen].bounds.size
+// 动态获取设备高度
+#define IPAD_HEIGHT			[UIScreen mainScreen].bounds.size.height
+#define IPAD_WIDTH          [UIScreen mainScreen].bounds.size.width
+#define isProPad            IPAD_HEIGHT==1024?YES:NO
+// ipad pro
+#define IPAD_PRO_HEIGHT			1024
+#define IPAD_PRO_WIDTH          1366
+//适配  缩放倍数
+#define ipad_wx 1.3334
+
+#define ipad_hx 1.3333
+
+#define CGFitSMRectMake(frame)  CGRectMake(frame.origin.x/ipad_wx, frame.origin.y/ipad_hx, frame.size.width/ipad_wx, frame.size.height/ipad_hx)
+
+#define CGFitProRectMake(frame)  CGRectMake(frame.origin.x*ipad_wx, frame.origin.y*ipad_hx, frame.size.width*ipad_wx, frame.size.height*ipad_hx)
+
+#define CGDoubleRectMake(x, y, width, height) CGRectMake(x/2, y/2, width/2, height/2)
+//宏定义weakSelf 弱引用
+#define HPWeakSelf(type) __weak typeof(type) weak##type = type;
+
 // app的版本号(BundleVersion,short)
 #define APP_VERSION_KEY         @"APP_VERSION_KEY"
 #define AppVersionString [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]    //格式:@"1.2.0"

@@ -29,7 +29,6 @@
     self.sanWeishowImgView.prefix = fix;
     self.sanWeishowImgView.revolveModel = revolveModel;
     self.sanWeishowImgView.numberOfImages = 10;
-    [self.sanWeishowImgView resetCurrent];
 }
 - (HPImageSequence*)sanWeishowImgView
 {

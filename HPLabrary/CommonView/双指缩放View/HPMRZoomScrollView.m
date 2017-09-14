@@ -17,13 +17,11 @@
 @implementation HPMRZoomScrollView
 
 @synthesize imageView=_imageView;
-@synthesize indexLogo=_indexLogo;
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        
         self.delegate = self;
         [self initImageView];
     
@@ -37,7 +35,7 @@
     
     // The imageView can be zoomed largest size
     //imageView.frame = CGRectMake(0, 0, MRScreenWidth * 2.5, MRScreenHeight * 2.5);
-    _imageView.frame = CGRectMake(0, 0, IPAD_ScreenWidth * 2.5, IPAD_ScreenHeight * 2.5);
+    _imageView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width * 2.5, [UIScreen mainScreen].bounds.size.height * 2.5);
     _imageView.userInteractionEnabled = YES;
     [self addSubview:_imageView];
 
@@ -51,13 +49,20 @@
     [self setMinimumZoomScale:minimumScale];
     [self setZoomScale:minimumScale];
 }
-
+//- (void)resetDefaultScale
+//{
+//    float minimumScale = self.frame.size.width / _imageView.frame.size.width;
+//    [self setZoomScale:minimumScale animated:NO];
+//}
 #pragma mark - Zoom methods
 
 - (void)handleDoubleTap:(UIGestureRecognizer *)gesture
 {
     float newScale = self.zoomScale * 1.5;
     CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gesture locationInView:gesture.view]];
+    if (self.handleBlock) {
+        self.handleBlock(1.5);
+    }
     [self zoomToRect:zoomRect animated:YES];
 }
 
@@ -81,16 +86,10 @@
 
 - (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(CGFloat)scale
 {
-    NSLog(@"_indexLogo==%@\nscale==%f",_indexLogo,scale);
     if (scale<=0.5) {
-        NSLog(@"0.4");
-        _indexLogo.alpha=1.0;
-        //_indexLogo.hidden=NO;
-        DLog(@"_indexLogo.hidden=NO;");
+        DLog(@"0.4");
     }else{
         DLog(@"1");
-        _indexLogo.alpha=1-scale;
-       // _indexLogo.hidden=YES;
     }
     [scrollView setZoomScale:scale animated:NO];
 }

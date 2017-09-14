@@ -16,16 +16,17 @@
 {
     NSInteger _totalPages;
     NSInteger _curPage;
-    NSInteger thisImageCount;
     NSMutableArray *_curViews;
 }
 
 @property (nonatomic,readonly) UIScrollView *scrollView;
 @property (nonatomic,assign) NSInteger currentPage;
 @property (nonatomic,assign) NSInteger thisImageCount;
+@property (nonatomic,assign) BOOL scrollCycle;
 @property (nonatomic,weak,setter = setDataource:) id<HPCycleScrollViewDatasource> datasource;
 @property (nonatomic,weak,setter = setDelegate:) id<HPCycleScrollViewDelegate> delegate;
 
+- (id)initWithFrame:(CGRect)frame withPageControl:(BOOL)bol;
 - (void)reloadData;
 - (void)setViewContent:(UIView *)view atIndex:(NSInteger)index;
 
@@ -35,7 +36,8 @@
 
 @optional
 - (void)didClickPage:(HPCycleScrollView *)csView atIndex:(NSInteger)index;
-
+- (void)didScollToIndex:(NSInteger)index;
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView;
 @end
 
 @protocol HPCycleScrollViewDatasource <NSObject>

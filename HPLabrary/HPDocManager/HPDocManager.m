@@ -32,6 +32,13 @@
 +(NSString*)vedioPath{
     return [docPath stringByAppendingPathComponent:@"vedio"];
 }
++(NSString*)musicPath{
+    return [docPath stringByAppendingPathComponent:@"music"];
+}
+
++(NSString*)musicFileWithPath:(NSString*)aSortPath{
+    return [[self musicPath] stringByAppendingPathComponent:aSortPath];
+}
 
 +(NSString*)skinFileWithPath:(NSString*)aSortPath{
     return [[self skinPath] stringByAppendingPathComponent:aSortPath];
