@@ -17,4 +17,5 @@
 #import <UIKit/UIKit.h>
 #import "HPDocManager.h"
 #import "HPConstant.h"
+#import <MJExtension/MJExtension.h>
 #endif /* HPPrefixHeader_pch */

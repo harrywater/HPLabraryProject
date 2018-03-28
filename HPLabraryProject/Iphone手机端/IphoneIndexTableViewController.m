@@ -14,12 +14,19 @@
 #import "HPNSTimerDemoViewController.h"
 #import "HPCycleViewController.h"
 #import "HPCoreTextViewController.h"
+#import "HPLayerViewController.h"
+#import "HPRuntimeViewController.h"
+#import "HPAutoReleasePoolViewController.h"
+#import "HPTableViewPerformanceViewController.h"
+#import "HPSetNeedLayoutViewController.h"
+#import "HPAnimationViewController.h"
 
 static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
 
 @interface IphoneIndexTableViewController ()
 {
     NSArray* listArray;
+    NSArray* classNameArr;
 }
 @end
 
@@ -28,18 +35,17 @@ static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
+
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_INDENTIFIER];
-    listArray=@[@"异步下载图片,缩放滚动",@"在线电影",@"wenView加载",@"timer应用",@"循环tableView",@"UITextView图文混排"];
+    listArray=@[@"异步下载图片,缩放滚动",@"在线电影",@"wenView加载",@"timer应用",@"循环tableView",@"UITextView图文混排",@"Layer画图",@"Runtime",@"AutoReleasePool释放内存",@"tabView优化性能",@"UIView-setNeedLayout",@"CAAnimation动画"];
+    classNameArr = @[@"HPZoomViewController",@"HPMovieViewController",@"HPWebViewController",@"HPNSTimerDemoViewController",@"HPCycleViewController",@"HPCoreTextViewController",@"HPLayerViewController",@"HPRuntimeViewController",@"HPAutoReleasePoolViewController",@"HPTableViewPerformanceViewController",@"HPSetNeedLayoutViewController",@"HPAnimationViewController"];
+    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Table view data source
@@ -63,67 +69,21 @@ static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
     cell.textLabel.textAlignment=NSTextAlignmentCenter;
     return cell;
 }
-
+- (void)routeVCByIndex:(NSInteger)index
+{
+    if (index<classNameArr.count) {
+        Class VCClass = NSClassFromString(classNameArr[index]);
+        UIViewController* vc = [[VCClass alloc]init];
+        if ([vc isKindOfClass:[UIViewController class]]) {
+            [self presentViewController:vc animated:YES completion:NULL];
+        }
+        
+    }
+}
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
    
-    if(indexPath.row == 0){
-        HPZoomViewController* hpScrollImageView=[[HPZoomViewController alloc]init];
-        [self presentViewController:hpScrollImageView animated:YES completion:NULL];
-        return;
-    }
-    if (indexPath.row==1) {
-        HPMovieViewController* hpmovieViewController=[[HPMovieViewController alloc]init];
-        [self presentViewController:hpmovieViewController animated:YES completion:NULL];
-        return;
-    }
-    if (indexPath.row==2) {
-        HPWebViewController* webVC = [[HPWebViewController alloc]init];
-        [self presentViewController:webVC animated:YES completion:NULL];
-        return;
-    }
-    if(indexPath.row == 3){
-        HPNSTimerDemoViewController* timerVC = [[HPNSTimerDemoViewController alloc]init];
-        [self presentViewController:timerVC animated:YES completion:NULL];
-    }
-    if (indexPath.row == 4) {
-        HPCycleViewController* scroVC = [[HPCycleViewController alloc]init];
-        [self presentViewController:scroVC animated:YES completion:NULL];
-    }
-    if (indexPath.row == 5) {
-        HPCoreTextViewController* coreVC = [[HPCoreTextViewController alloc]init];
-        [self presentViewController:coreVC animated:YES completion:NULL];
-    }
-}
--(void)movieBtnAction{
-    //    MPMoviePlayerViewController* moviePlayerController=[[MPMoviePlayerViewController alloc]initWithContentURL:[NSURL URLWithString:@"https://s3.amazonaws.com/adplayer/colgate.mp4"]];
-//    NSString *path=[[NSBundle mainBundle] pathForResource:@"mov" ofType:@"mp4"];
-//    NSString *path=[[NSBundle mainBundle] pathForResource:@"cdts" ofType:@"rmvb"];
-//    NSURL *URL = [[NSURL alloc] initFileURLWithPath:path];
-    NSURL *URL = [[NSURL alloc] initWithString:@"http://222.186.59.219:8080/mov.mp4"];
-    DLog(@"url===%@",URL);
-    MPMoviePlayerViewController *movie = [[MPMoviePlayerViewController alloc]initWithContentURL:URL];
-    [movie.moviePlayer prepareToPlay];
-    movie.moviePlayer.controlStyle=MPMovieControlStyleFullscreen;
-    [movie.view setFrame:self.view.bounds];
-    [movie.moviePlayer play];
-    [[NSNotificationCenter defaultCenter]addObserver:self
-                                            selector:@selector(movieFinishedCallback:)
-                                                name:MPMoviePlayerPlaybackDidFinishNotification
-                                              object:movie.moviePlayer];
-    
-    [self presentMoviePlayerViewControllerAnimated:movie];
-    
+    [self routeVCByIndex:indexPath.row];
 }
 
--(void)movieFinishedCallback:(NSNotification*)notify{
-    
-    // 视频播放完或者在presentMoviePlayerViewControllerAnimated下的Done按钮被点击响应的通知。
-    MPMoviePlayerController* theMoviePlayer = [notify object];
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:MPMoviePlayerPlaybackDidFinishNotification
-                                                  object:theMoviePlayer];
-    
-    [self dismissMoviePlayerViewControllerAnimated];
-}
 
 @end
