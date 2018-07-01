@@ -56,6 +56,7 @@
 		56CF965D1FE3BB3600A4A2AE /* HPNeedView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CF965C1FE3BB3600A4A2AE /* HPNeedView1.m */; };
 		56CF96601FE3BB3D00A4A2AE /* HPNeedView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CF965F1FE3BB3D00A4A2AE /* HPNeedView2.m */; };
 		56CF96631FE3BB4600A4A2AE /* HPNeedView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CF96621FE3BB4600A4A2AE /* HPNeedView3.m */; };
+		56D45DCE20A976130074886E /* HPUIButtonEdgeInsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D45DCD20A976130074886E /* HPUIButtonEdgeInsetViewController.m */; };
 		56D763451E0CBAF700854622 /* HPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D763441E0CBAF700854622 /* HPWebViewController.m */; };
 		56D763481E0CBC8D00854622 /* HPIpadBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D763471E0CBC8D00854622 /* HPIpadBaseViewController.m */; };
 		56E5F1DD1FDA6E1D00EC214E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 56E5F1DC1FDA6E1D00EC214E /* data.json */; };
@@ -203,6 +204,8 @@
 		56CF965F1FE3BB3D00A4A2AE /* HPNeedView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPNeedView2.m; sourceTree = "<group>"; };
 		56CF96611FE3BB4600A4A2AE /* HPNeedView3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPNeedView3.h; sourceTree = "<group>"; };
 		56CF96621FE3BB4600A4A2AE /* HPNeedView3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPNeedView3.m; sourceTree = "<group>"; };
+		56D45DCC20A976130074886E /* HPUIButtonEdgeInsetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPUIButtonEdgeInsetViewController.h; sourceTree = "<group>"; };
+		56D45DCD20A976130074886E /* HPUIButtonEdgeInsetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPUIButtonEdgeInsetViewController.m; sourceTree = "<group>"; };
 		56D763431E0CBAF700854622 /* HPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWebViewController.h; sourceTree = "<group>"; };
 		56D763441E0CBAF700854622 /* HPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWebViewController.m; sourceTree = "<group>"; };
 		56D763461E0CBC8D00854622 /* HPIpadBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPIpadBaseViewController.h; sourceTree = "<group>"; };
@@ -357,6 +360,7 @@
 		56538F131DFFFACF002A7F1C /* Iphone手机端 */ = {
 			isa = PBXGroup;
 			children = (
+				56D45DCB20A975D40074886E /* UIBUttonEdgeInset学习 */,
 				560E890C1FF4DA0D00849DDC /* CAAnimation动画 */,
 				56CF96561FE3BACE00A4A2AE /* UIView-setNeedLayout */,
 				56F9B5801FD939E5005E45B7 /* TableView性能优化 */,
@@ -558,6 +562,15 @@
 				56CF96621FE3BB4600A4A2AE /* HPNeedView3.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		56D45DCB20A975D40074886E /* UIBUttonEdgeInset学习 */ = {
+			isa = PBXGroup;
+			children = (
+				56D45DCC20A976130074886E /* HPUIButtonEdgeInsetViewController.h */,
+				56D45DCD20A976130074886E /* HPUIButtonEdgeInsetViewController.m */,
+			);
+			path = "UIBUttonEdgeInset学习";
 			sourceTree = "<group>";
 		};
 		56E5F1DB1FDA6E1D00EC214E /* jsonData */ = {
@@ -1108,6 +1121,7 @@
 				56BEC5AC2048F0CF000B1CF3 /* HPRuntimeMethodObj.m in Sources */,
 				B28831761C23F62A00A99181 /* NSDate+CovertDate.m in Sources */,
 				569404461F6A65AC0052A43D /* HPScrolleView.m in Sources */,
+				56D45DCE20A976130074886E /* HPUIButtonEdgeInsetViewController.m in Sources */,
 				56CF965D1FE3BB3600A4A2AE /* HPNeedView1.m in Sources */,
 				B28831771C23F62A00A99181 /* NSString+AlertView.m in Sources */,
 				B288317B1C23F62A00A99181 /* UIButton+TitleWithImg.m in Sources */,

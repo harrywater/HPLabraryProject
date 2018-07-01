@@ -9,5 +9,5 @@
 #import "HPIphoneBaseViewController.h"
 
 @interface HPRuntimeViewController : HPIphoneBaseViewController
-@property(nonatomic,copy)NSString* name;
+
 @end

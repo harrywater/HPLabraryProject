@@ -20,7 +20,8 @@
 #import "HPTableViewPerformanceViewController.h"
 #import "HPSetNeedLayoutViewController.h"
 #import "HPAnimationViewController.h"
-
+#import "HPUIButtonEdgeInsetViewController.h"
+#import <Foundation/Foundation.h>
 static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
 
 @interface IphoneIndexTableViewController ()
@@ -37,8 +38,8 @@ static NSString* CELL_INDENTIFIER=@"IPHONE_LIST_CELL";
     self.view.backgroundColor=[UIColor whiteColor];
 
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_INDENTIFIER];
-    listArray=@[@"异步下载图片,缩放滚动",@"在线电影",@"wenView加载",@"timer应用",@"循环tableView",@"UITextView图文混排",@"Layer画图",@"Runtime",@"AutoReleasePool释放内存",@"tabView优化性能",@"UIView-setNeedLayout",@"CAAnimation动画"];
-    classNameArr = @[@"HPZoomViewController",@"HPMovieViewController",@"HPWebViewController",@"HPNSTimerDemoViewController",@"HPCycleViewController",@"HPCoreTextViewController",@"HPLayerViewController",@"HPRuntimeViewController",@"HPAutoReleasePoolViewController",@"HPTableViewPerformanceViewController",@"HPSetNeedLayoutViewController",@"HPAnimationViewController"];
+    listArray=@[@"异步下载图片,缩放滚动",@"在线电影",@"wenView加载",@"timer应用",@"循环tableView",@"UITextView图文混排",@"Layer画图",@"Runtime",@"AutoReleasePool释放内存",@"tabView优化性能",@"UIView-setNeedLayout",@"CAAnimation动画",@"ButtonEdgeInsetTest"];
+    classNameArr = @[@"HPZoomViewController",@"HPMovieViewController",@"HPWebViewController",@"HPNSTimerDemoViewController",@"HPCycleViewController",@"HPCoreTextViewController",@"HPLayerViewController",@"HPRuntimeViewController",@"HPAutoReleasePoolViewController",@"HPTableViewPerformanceViewController",@"HPSetNeedLayoutViewController",@"HPAnimationViewController",@"HPUIButtonEdgeInsetViewController"];
     
     
     // Uncomment the following line to preserve selection between presentations.
